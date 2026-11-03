@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the version-specific archive of these research data and code."
+type: dataset
+title: "Reranker Batching and Evidence Stability in Budgeted Retrieval-Augmented Generation: Data and Code"
+authors:
+  - family-names: Xu
+    given-names: Zebin
+    affiliation: "School of Cyberspace Security, Beijing University of Posts and Telecommunications"
+version: 1.0.0
+date-released: 2026-11-03
+repository-code: "https://github.com/q2491232998-bot/rag-evidence-stability"
+license:
+  - CC-BY-4.0
+  - MIT

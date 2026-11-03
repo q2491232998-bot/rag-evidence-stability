@@ -1,0 +1,278 @@
+{
+  "methods": {
+    "bf16_serial": {
+      "f1": 0.6289221553657695,
+      "em": 0.5234375
+    },
+    "fp32_serial": {
+      "f1": 0.6371996851276742,
+      "em": 0.53125
+    },
+    "fp32_batch4": {
+      "f1": 0.6371996851276742,
+      "em": 0.53125
+    }
+  },
+  "contrasts": {
+    "fp32_batch4_minus_fp32_serial": {
+      "reference": "fp32_serial",
+      "treatment": "fp32_batch4",
+      "paired": {
+        "f1": {
+          "n": 128,
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "equal": 128
+        },
+        "em": {
+          "n": 128,
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive": 0,
+          "negative": 0,
+          "equal": 128
+        }
+      },
+      "latency_saving": {
+        "n": 128,
+        "point": 0.4057778394888697,
+        "ci95": [
+          0.3977967405231266,
+          0.4137892151719369
+        ],
+        "reference_sum_question_medians_seconds": 596.5982363317162,
+        "treatment_sum_question_medians_seconds": 354.5118929501623
+      },
+      "context_changes": 0,
+      "membership_changes": 0,
+      "output_token_changes": 0,
+      "normalized_answer_changes": 0,
+      "full_ranking_changes": 0,
+      "top10_ranking_changes": 0,
+      "score_drift": {
+        "unique_documents": 22330,
+        "mean": 9.651137103000885e-06,
+        "max": 0.00010061264038085938,
+        "p95": 2.47955322265625e-05,
+        "above_1e4": 1
+      }
+    },
+    "fp32_batch4_minus_bf16_serial": {
+      "reference": "bf16_serial",
+      "treatment": "fp32_batch4",
+      "paired": {
+        "f1": {
+          "n": 128,
+          "mean": 0.008277529761904762,
+          "ci95": [
+            0.0,
+            0.022879464285714288
+          ],
+          "positive": 2,
+          "negative": 0,
+          "equal": 126
+        },
+        "em": {
+          "n": 128,
+          "mean": 0.0078125,
+          "ci95": [
+            0.0,
+            0.0234375
+          ],
+          "positive": 1,
+          "negative": 0,
+          "equal": 127
+        }
+      },
+      "latency_saving": {
+        "n": 128,
+        "point": 0.25699767460270384,
+        "ci95": [
+          0.24534569862778444,
+          0.2683693474027831
+        ],
+        "reference_sum_question_medians_seconds": 477.1342980125919,
+        "treatment_sum_question_medians_seconds": 354.5118929501623
+      },
+      "context_changes": 36,
+      "membership_changes": 15,
+      "output_token_changes": 4,
+      "normalized_answer_changes": 4,
+      "full_ranking_changes": 128,
+      "top10_ranking_changes": 94,
+      "score_drift": {
+        "unique_documents": 22330,
+        "mean": 0.06756102563659012,
+        "max": 0.563812255859375,
+        "p95": 0.17302598953247067,
+        "above_1e4": 22304
+      }
+    },
+    "fp32_serial_minus_bf16_serial": {
+      "reference": "bf16_serial",
+      "treatment": "fp32_serial",
+      "paired": {
+        "f1": {
+          "n": 128,
+          "mean": 0.008277529761904762,
+          "ci95": [
+            0.0,
+            0.022879464285714288
+          ],
+          "positive": 2,
+          "negative": 0,
+          "equal": 126
+        },
+        "em": {
+          "n": 128,
+          "mean": 0.0078125,
+          "ci95": [
+            0.0,
+            0.0234375
+          ],
+          "positive": 1,
+          "negative": 0,
+          "equal": 127
+        }
+      },
+      "latency_saving": {
+        "n": 128,
+        "point": -0.2503780147784964,
+        "ci95": [
+          -0.2543901017261765,
+          -0.24611524238936514
+        ],
+        "reference_sum_question_medians_seconds": 477.1342980125919,
+        "treatment_sum_question_medians_seconds": 596.5982363317162
+      },
+      "context_changes": 36,
+      "membership_changes": 15,
+      "output_token_changes": 4,
+      "normalized_answer_changes": 4,
+      "full_ranking_changes": 128,
+      "top10_ranking_changes": 94,
+      "score_drift": {
+        "unique_documents": 22330,
+        "mean": 0.06756084624075644,
+        "max": 0.5638227462768555,
+        "p95": 0.173033332824707,
+        "above_1e4": 22306
+      }
+    }
+  },
+  "decision": {
+    "engineering_passed": true,
+    "matched_precision_identity_passed": true,
+    "matched_precision_numeric_passed": false,
+    "repair_screen_passed": false,
+    "matched_precision_speed_passed": true,
+    "repair_and_speed_passed": false,
+    "original_reference_quality_passed": true,
+    "original_reference_speed_passed": false,
+    "deployment_screen_passed": false,
+    "reserved_expansion_authorized": false,
+    "automatic_next_experiment": false
+  },
+  "diagnostics": {
+    "bf16_serial": {
+      "requests": 256,
+      "scored_documents": 44660,
+      "forward_invocations": 44660,
+      "component_totals_seconds": {
+        "selection": 0.0024106837809085846,
+        "reranker_encode": 10.356875102967024,
+        "reranker_forward": 875.0152331348509,
+        "ordering_pack": 1.4756615702062845,
+        "reader_prompt": 0.5689967535436153,
+        "reader_generate": 66.83459768258035,
+        "reader_decode": 0.014821097254753113,
+        "total": 954.2685960251838
+      },
+      "repeat_totals_seconds": [
+        476.87970313988626,
+        477.38889288529754
+      ],
+      "peak_allocated_bytes": 17780371456,
+      "peak_reserved_bytes": 19706937344,
+      "dtype_transition_seconds_excluded": 1.5890302453190088,
+      "padded_tokens": 8653742,
+      "nonpad_tokens": 8653742,
+      "cap_hits_first_repeat": 0
+    },
+    "fp32_serial": {
+      "requests": 256,
+      "scored_documents": 44660,
+      "forward_invocations": 44660,
+      "component_totals_seconds": {
+        "selection": 0.0019585974514484406,
+        "reranker_encode": 10.693138670176268,
+        "reranker_forward": 1115.4089598637074,
+        "ordering_pack": 1.4605800919234753,
+        "reader_prompt": 0.5664626844227314,
+        "reader_generate": 65.05064970254898,
+        "reader_decode": 0.014723053202033043,
+        "total": 1193.1964726634324
+      },
+      "repeat_totals_seconds": [
+        596.4669884629548,
+        596.7294842004776
+      ],
+      "peak_allocated_bytes": 18989728768,
+      "peak_reserved_bytes": 19706937344,
+      "dtype_transition_seconds_excluded": 1.1449452247470617,
+      "padded_tokens": 8653742,
+      "nonpad_tokens": 8653742,
+      "cap_hits_first_repeat": 0
+    },
+    "fp32_batch4": {
+      "requests": 256,
+      "scored_documents": 44660,
+      "forward_invocations": 11274,
+      "component_totals_seconds": {
+        "selection": 0.0019730310887098312,
+        "reranker_encode": 10.484043337404728,
+        "reranker_forward": 630.8596190307289,
+        "ordering_pack": 1.4410373475402594,
+        "reader_prompt": 0.5634773932397366,
+        "reader_generate": 65.65900268219411,
+        "reader_decode": 0.014633078128099442,
+        "total": 709.0237859003246
+      },
+      "repeat_totals_seconds": [
+        354.2769743371755,
+        354.7468115631491
+      ],
+      "peak_allocated_bytes": 19097263104,
+      "peak_reserved_bytes": 19706937344,
+      "dtype_transition_seconds_excluded": 1.0674625728279352,
+      "padded_tokens": 8757752,
+      "nonpad_tokens": 8653742,
+      "cap_hits_first_repeat": 0
+    }
+  },
+  "scope": "Full reused128 development engineering evaluation. Three arms, two fresh repetitions; uncached warm-resident post-retrieval latency including reader, not full-RAG end-to-end latency or untouched confirmation.",
+  "questions": 128,
+  "primary_generation_calls": 768,
+  "warmup_generation_calls": 6,
+  "primary_scored_documents": 133980,
+  "warmup_scored_documents": 1023,
+  "scored_document_saving": 0.0,
+  "bootstrap": {
+    "replicates": 20000,
+    "seed": 20261013,
+    "unit": "question",
+    "repetitions_are_not_extra_questions": true,
+    "multiplicity_adjusted": false
+  },
+  "manifest_sha256": "223bc697dadd0feac6d3a029f23ec53db4fa90eee9c757e69d9378fab5120e4d",
+  "labels_sha256": "a277b663b2cdd1b673fcb0fc86046e9272b93176edcea8d6da6af97f027cf16a",
+  "official_evaluator_sha256": "d35fc91a6db21d791dbdda11daf3856e9359f5701d54e3eefba20d88fecc02c0"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Reranker Batching and Evidence Stability in Budgeted Retrieval-Augmented Generation: Data and Code",
+  "creators": [
+    {
+      "name": "Xu, Zebin",
+      "affiliation": "School of Cyberspace Security, Beijing University of Posts and Telecommunications"
+    }
+  ],
+  "description": "Derived numerical evidence and frozen code for a study of reranker batching and budgeted RAG evidence stability. Includes 64 HotpotQA and 96 MuSiQue train-derived questions evaluated within the same BEIR HotpotQA corpus. A standard-library arithmetic replay reproduces primary counts and exact tests from retained observations, not new model inference. Study questions, passages, answer text and model weights are omitted. Derived data and documentation are CC BY 4.0; original code is MIT; third-party metric references retain their existing license. See repository license and provenance files. Prepared for journal submission; no journal acceptance or publication is claimed.",
+  "upload_type": "dataset",
+  "version": "1.0.0",
+  "publication_date": "2026-11-03",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "retrieval-augmented generation",
+    "reranking",
+    "evidence selection",
+    "reproducibility",
+    "numerical stability"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/q2491232998-bot/rag-evidence-stability",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

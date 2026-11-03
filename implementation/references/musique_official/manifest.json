@@ -1,0 +1,63 @@
+{
+  "repository": "https://github.com/stonybrooknlp/musique",
+  "revision": "922ac98f19a201998dbdae6d7f2887a5258dbdeb",
+  "retrieved_utc": "2026-10-12T02:24:53Z",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/stonybrooknlp/musique/922ac98f19a201998dbdae6d7f2887a5258dbdeb/README.md",
+      "bytes": 48623,
+      "sha256": "7a3fb6a960f3fa122d2a1a81b73b9cf5a39ac983b11735d158490947960b9359"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/stonybrooknlp/musique/922ac98f19a201998dbdae6d7f2887a5258dbdeb/LICENSE",
+      "bytes": 18652,
+      "sha256": "cce5d01fa4a83b794271bd2c28cffdf99afd43c803e6ddefddae39b591ea7448"
+    },
+    {
+      "path": "download_data.sh",
+      "url": "https://raw.githubusercontent.com/stonybrooknlp/musique/922ac98f19a201998dbdae6d7f2887a5258dbdeb/download_data.sh",
+      "bytes": 445,
+      "sha256": "3242f928d7c0f8db885296872397af33ce19014e6edab62bbd44bab3d73a09d2"
+    },
+    {
+      "path": "evaluate_v1.0.py",
+      "url": "https://raw.githubusercontent.com/stonybrooknlp/musique/922ac98f19a201998dbdae6d7f2887a5258dbdeb/evaluate_v1.0.py",
+      "bytes": 4606,
+      "sha256": "f5fe66ae61dbea5172cba9d428d9924a5811f3457edc945fc1d81369c30e74b7"
+    },
+    {
+      "path": "metrics/answer.py",
+      "url": "https://raw.githubusercontent.com/stonybrooknlp/musique/922ac98f19a201998dbdae6d7f2887a5258dbdeb/metrics/answer.py",
+      "bytes": 2837,
+      "sha256": "10368f619b4d5ef5d83748c05a96c0afd332a14ab5c010740c98d58dfaefe974"
+    },
+    {
+      "path": "metrics/support.py",
+      "url": "https://raw.githubusercontent.com/stonybrooknlp/musique/922ac98f19a201998dbdae6d7f2887a5258dbdeb/metrics/support.py",
+      "bytes": 2315,
+      "sha256": "ac16c0daf458a6a4d6db97682c2340fe5b5936a947bf32c04dc3bf16406077c6"
+    },
+    {
+      "path": "metrics/metric.py",
+      "url": "https://raw.githubusercontent.com/stonybrooknlp/musique/922ac98f19a201998dbdae6d7f2887a5258dbdeb/metrics/metric.py",
+      "bytes": 628,
+      "sha256": "c858d1bfda2f0b005065e87a402cd2f82154eb7eed5916845ae130759cc3a299"
+    },
+    {
+      "path": "metrics/group_answer_sufficiency.py",
+      "url": "https://raw.githubusercontent.com/stonybrooknlp/musique/922ac98f19a201998dbdae6d7f2887a5258dbdeb/metrics/group_answer_sufficiency.py",
+      "bytes": 2320,
+      "sha256": "6fd72646055b736cfae474eba58f7d4823ee8f539c0746bb87dd5c8208d7abcc"
+    },
+    {
+      "path": "metrics/group_support_sufficiency.py",
+      "url": "https://raw.githubusercontent.com/stonybrooknlp/musique/922ac98f19a201998dbdae6d7f2887a5258dbdeb/metrics/group_support_sufficiency.py",
+      "bytes": 2546,
+      "sha256": "ab6f9aa92243190b891d28a1787781029bd808616e347cbf325526bffcc10820"
+    }
+  ],
+  "download_script_executed": false,
+  "license": "CC BY 4.0 stated in official README"
+}

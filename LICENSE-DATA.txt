@@ -1,0 +1,10 @@
+Copyright (c) 2026 Zebin Xu.
+
+Original derived numerical data, manifests and documentation in this release
+are licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0). To view the full license, visit:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Give appropriate credit, provide a link to the license, and indicate changes.
+This grant does not relicense third-party data, models, code or documentation.
+Original code is separately MIT licensed; see LICENSE-CODE.txt.

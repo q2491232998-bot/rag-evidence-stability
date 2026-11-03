@@ -1,0 +1,144 @@
+{
+  "methods": {
+    "full": {
+      "f1": 0.6954861111111111,
+      "em": 0.59375
+    },
+    "batch4": {
+      "f1": 0.6954861111111111,
+      "em": 0.59375
+    }
+  },
+  "primary_contrast": "batch4_minus_full",
+  "paired": {
+    "f1": {
+      "n": 32,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive": 0,
+      "negative": 0,
+      "equal": 32
+    },
+    "em": {
+      "n": 32,
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "positive": 0,
+      "negative": 0,
+      "equal": 32
+    }
+  },
+  "latency_saving": {
+    "n": 32,
+    "point": 0.595134540729373,
+    "ci95": [
+      0.5845091894500116,
+      0.6048138642715195
+    ],
+    "full_sum_question_medians_seconds": 118.20986920781434,
+    "batched_sum_question_medians_seconds": 47.8590929871425
+  },
+  "primary_scored_documents": {
+    "full": 11262,
+    "batch4": 11262
+  },
+  "scored_document_saving": 0.0,
+  "primary_forward_invocations": {
+    "full": 11262,
+    "batch4": 2842
+  },
+  "forward_invocation_saving": 0.747646954359794,
+  "primary_generation_calls": 128,
+  "warmup_generation_calls": 4,
+  "warmup_scored_documents": 682,
+  "context_changes": 7,
+  "output_token_changes": 1,
+  "normalized_answer_changes": 1,
+  "full_ranking_changes": 32,
+  "top10_ranking_changes": 19,
+  "cross_batch_score_drift": {
+    "unique_documents": 5631,
+    "max": 0.625,
+    "mean": 0.08061375158164624,
+    "p95": 0.1875,
+    "above_1e4": 4532,
+    "within_1e4": false,
+    "diagnostic_not_operational_gate": true
+  },
+  "decision": {
+    "engineering_passed": true,
+    "operational_identity_passed": false,
+    "quality_screen_passed": true,
+    "latency_screen_passed": true,
+    "pilot_screen_passed": false,
+    "reserved_expansion_authorized": false,
+    "automatic_next_experiment": false
+  },
+  "diagnostics": {
+    "full": {
+      "requests": 64,
+      "median_seconds": 3.7284229770302773,
+      "p95_seconds": 4.12779558263719,
+      "component_totals_seconds": {
+        "selection": 0.0004308205097913742,
+        "reranker_encode": 2.3228066079318523,
+        "reranker_forward": 217.15557950735092,
+        "ordering_pack": 0.3396761976182461,
+        "reader_prompt": 0.1369252558797598,
+        "reader_generate": 16.460678910836577,
+        "reader_decode": 0.003641115501523018,
+        "total": 236.41973841562867
+      },
+      "repeat_totals_seconds": [
+        118.0348052047193,
+        118.38493321090937
+      ],
+      "padded_tokens": 2205524,
+      "nonpad_tokens": 2205524,
+      "peak_allocated_bytes": 17773629440,
+      "peak_reserved_bytes": 17905483776,
+      "cap_hits_first_repeat": 0
+    },
+    "batch4": {
+      "requests": 64,
+      "median_seconds": 1.4720721766352654,
+      "p95_seconds": 1.8065462335944171,
+      "component_totals_seconds": {
+        "selection": 0.00030055828392505646,
+        "reranker_encode": 2.3137812949717045,
+        "reranker_forward": 77.14543640986085,
+        "ordering_pack": 0.3270441051572561,
+        "reader_prompt": 0.13374408707022667,
+        "reader_generate": 15.794198052957654,
+        "reader_decode": 0.003681465983390808,
+        "total": 95.718185974285
+      },
+      "repeat_totals_seconds": [
+        47.849643955007195,
+        47.86854201927781
+      ],
+      "padded_tokens": 2232754,
+      "nonpad_tokens": 2205524,
+      "peak_allocated_bytes": 17776229888,
+      "peak_reserved_bytes": 17905483776,
+      "cap_hits_first_repeat": 0
+    }
+  },
+  "scope": "Reused32 engineering pilot. Uncached warm-resident full-pool serial versus length-bucketed microbatch4 post-retrieval latency; not full RAG latency, not a novel method or held-out generalization.",
+  "bootstrap": {
+    "replicates": 20000,
+    "seed": 20261013,
+    "unit": "question",
+    "repeated_timings_are_not_extra_questions": true,
+    "multiplicity_adjusted": false
+  },
+  "manifest_sha256": "00192f38ad37c530be1efe338fc8156c5a2fcb1c0aa900aac5f24863003f0d86",
+  "labels_sha256": "a277b663b2cdd1b673fcb0fc86046e9272b93176edcea8d6da6af97f027cf16a",
+  "official_evaluator_sha256": "d35fc91a6db21d791dbdda11daf3856e9359f5701d54e3eefba20d88fecc02c0"
+}

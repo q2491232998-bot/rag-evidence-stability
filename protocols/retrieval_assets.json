@@ -1,0 +1,42 @@
+{
+  "beir_hotpot_bge_small_v1": {
+    "config": {
+      "source_sha256": "3e776d2343352f83341878202b8c49cc1ebe6e2ad4c2a77a21c116cafa229334",
+      "model": "BAAI/bge-small-en-v1.5",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "embedding_dtype": "float32",
+      "storage_dtype": "float32",
+      "normalized": true,
+      "max_length": 512,
+      "batch_size": 128,
+      "shard_size": 10000,
+      "document_format": "Title: {title}\n{text}",
+      "query_instruction": "Represent this sentence for searching relevant passages: "
+    },
+    "documents": 5233329,
+    "complete": true,
+    "manifest_sha256": "57e61ac92c79dd53c1890359e90e5d8441dd4489b06c792eeccb93f22bed7630"
+  },
+  "beir_hotpot_e5_base_v1": {
+    "config": {
+      "index_directory": "indices/beir_hotpot_e5_base_v1",
+      "source_sha256": "3e776d2343352f83341878202b8c49cc1ebe6e2ad4c2a77a21c116cafa229334",
+      "model": "intfloat/e5-base-v2",
+      "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+      "embedding_dtype": "float32",
+      "storage_dtype": "float32",
+      "dimension": 768,
+      "normalized": true,
+      "normalization_tolerance": 0.0001,
+      "max_length": 512,
+      "batch_size": 64,
+      "shard_size": 10000,
+      "document_format": "Title: {title}\n{text}",
+      "document_prefix": "passage: ",
+      "query_instruction": "query: "
+    },
+    "documents": 5233329,
+    "complete": true,
+    "manifest_sha256": "4c8034a7083aed5e6da0a4d44a9b07e8cae1675aa4fe65d45591b6804a37bf83"
+  }
+}

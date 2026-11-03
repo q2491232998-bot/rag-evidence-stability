@@ -1,0 +1,17 @@
+{
+  "repository": "dgslibisey/MuSiQue",
+  "revision": "c8f4f8c9465fb69d31a8eae894c3fd509c4ca321",
+  "url": "https://huggingface.co/datasets/dgslibisey/MuSiQue/resolve/c8f4f8c9465fb69d31a8eae894c3fd509c4ca321/musique_ans_v1.0_train.jsonl",
+  "source_split": "train",
+  "official_source": "https://github.com/stonybrooknlp/musique",
+  "official_repository_revision": "922ac98f19a201998dbdae6d7f2887a5258dbdeb",
+  "official_zip_unavailable_reason": "Public Google Drive download quota exceeded",
+  "official_archive_byte_equivalence_verified": false,
+  "mirror_lfs_expected_sha256": "83a75b1e11e4e9bb8f8308e72ac40ca617ae4431b3a0d955b61cab259248490a",
+  "official_dev_test_downloaded": false,
+  "bytes": 241046755,
+  "sha256": "83a75b1e11e4e9bb8f8308e72ac40ca617ae4431b3a0d955b61cab259248490a",
+  "rows": 19938,
+  "acquired_utc": "2026-10-12T02:29:01Z",
+  "license_source": "Official dataset README: CC BY 4.0; mirror card has no license metadata"
+}

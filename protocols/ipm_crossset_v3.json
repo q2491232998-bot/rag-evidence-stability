@@ -1,0 +1,50 @@
+{
+  "output": "results/ipm_crossset_v3",
+  "questions": 96,
+  "seed": 20261102,
+  "arms": [
+    "bf16_serial",
+    "bf16_batch4",
+    "fp32_serial",
+    "fp32_batch4"
+  ],
+  "repetitions": 2,
+  "warmup_questions": 2,
+  "context_tokens": 512,
+  "top_k": 10,
+  "max_new_tokens": 32,
+  "generator_max_input_tokens": 2048,
+  "reranker_max_length": 1024,
+  "reranker_repeat_atol": 0.0001,
+  "minimum_f1_ci_lower": -0.02,
+  "minimum_em_ci_lower": -0.02,
+  "minimum_latency_saving": 0.4,
+  "bootstrap_replicates": 20000,
+  "reader": {
+    "repo": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "reranker": {
+    "repo": "Qwen/Qwen3-Reranker-0.6B",
+    "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473"
+  },
+  "scope": "Prospectively specified MuSiQue train-derived question transfer in the fixed BEIR HotpotQA corpus; same four configurations, 512-token packing and two repetitions. Not the official MuSiQue retrieval setting or a cross-model experiment.",
+  "batch_size": 4,
+  "required_context_changes": 0,
+  "required_output_token_changes": 0,
+  "stage": "ipm_crossset_v3",
+  "expected_torch": "2.5.1+cu121",
+  "expected_transformers": "4.57.6",
+  "maximum_fp32_geometry_residual": 0.0001,
+  "data": "data/ipm_crossset_v3",
+  "labels": "data/ipm_crossset_v3/labels.jsonl",
+  "primary_alpha": 0.05,
+  "retrieval_cpu_atol": 2e-05,
+  "corpus_documents": 5233329,
+  "indices": {
+    "bge": "indices/beir_hotpot_bge_small_v1",
+    "e5": "indices/beir_hotpot_e5_base_v1"
+  },
+  "maximum_execution_seconds": 14400,
+  "maximum_new_result_bytes": 10737418240
+}

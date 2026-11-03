@@ -1,0 +1,20 @@
+{
+  "S22": {
+    "contingency": {
+      "both": 0,
+      "native_only": 17,
+      "fp32_only": 0,
+      "neither": 47
+    },
+    "exact_p": 7.62939453125e-06
+  },
+  "T96": {
+    "contingency": {
+      "both": 0,
+      "native_only": 41,
+      "fp32_only": 0,
+      "neither": 55
+    },
+    "exact_p": 4.547473508864641e-13
+  }
+}

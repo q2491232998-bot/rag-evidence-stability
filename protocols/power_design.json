@@ -1,0 +1,64 @@
+{
+  "kind": "design_assumptions_not_experimental_results",
+  "alpha": 0.05,
+  "one_sided": true,
+  "calculation": "exact multinomial power, conditioned on discordant pair count",
+  "unit": "question",
+  "scenarios": [
+    {
+      "questions": 64,
+      "assumed_native_only": 0.15,
+      "assumed_fp32_only": 0.02,
+      "exact_power": 0.7736584941529472
+    },
+    {
+      "questions": 96,
+      "assumed_native_only": 0.15,
+      "assumed_fp32_only": 0.02,
+      "exact_power": 0.9351633609061583
+    },
+    {
+      "questions": 128,
+      "assumed_native_only": 0.15,
+      "assumed_fp32_only": 0.02,
+      "exact_power": 0.9826100936234455
+    },
+    {
+      "questions": 64,
+      "assumed_native_only": 0.1,
+      "assumed_fp32_only": 0.02,
+      "exact_power": 0.43519948286734345
+    },
+    {
+      "questions": 96,
+      "assumed_native_only": 0.1,
+      "assumed_fp32_only": 0.02,
+      "exact_power": 0.6622854009976442
+    },
+    {
+      "questions": 128,
+      "assumed_native_only": 0.1,
+      "assumed_fp32_only": 0.02,
+      "exact_power": 0.8112633236239499
+    },
+    {
+      "questions": 64,
+      "assumed_native_only": 0.15,
+      "assumed_fp32_only": 0.05,
+      "exact_power": 0.4614834407517423
+    },
+    {
+      "questions": 96,
+      "assumed_native_only": 0.15,
+      "assumed_fp32_only": 0.05,
+      "exact_power": 0.6567305539488549
+    },
+    {
+      "questions": 128,
+      "assumed_native_only": 0.15,
+      "assumed_fp32_only": 0.05,
+      "exact_power": 0.7834360853724597
+    }
+  ],
+  "new_model_requests": 0
+}
