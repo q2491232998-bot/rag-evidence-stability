@@ -1,0 +1,6 @@
+question_id,left_index,right_index,hybrid_rank_left,hybrid_rank_right,hybrid_gap,serial_score_left,serial_score_right,batch4_score_left,batch4_score_right,serial_rank_left,serial_rank_right,swap_changes_context,swap_restores_serial,rescore_pair_restores_serial,miss_conditions
+7fb27d8d5a8bb351f97236a1f6dcd8b2613b16f1,18,19,9,11,0.03125,-7.09375,-7.0625,-7.09375,-7.125,10,9,True,True,True,"[""nonadjacent""]"
+6424e442b34a576f904d9649d63acf1e4fdefdfc,1,2,2,4,0.0625,-0.375,-0.3125,-0.375,-0.4375,3,2,True,True,True,"[""nonadjacent""]"
+c2b8ee872b99f698b3d2082d57f9408a91e1b4c1,38,42,9,12,0.09375,-6.4375,-6.28125,-6.375,-6.46875,11,8,True,True,True,"[""nonadjacent""]"
+ff338921e34c15baf1eae0074938bf79ee65fdd2,34,9,4,6,0.0625,-5.25,-5.1875,-5.125,-5.25,6,5,True,True,True,"[""nonadjacent""]"
+d7b60abb0091246e29d1a9c28467de598e090c20,0,29,6,8,0.03125,-6.125,-6.0625,-5.9375,-6.15625,7,6,True,True,True,"[""nonadjacent""]"

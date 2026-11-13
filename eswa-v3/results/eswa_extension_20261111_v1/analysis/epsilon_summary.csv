@@ -1,0 +1,3 @@
+﻿model,epsilon,development_maximum_error,questions,candidates,source_batch,source_rep
+qwen,0.9375,0.625,256,19969,4,0
+bge,0.1875,0.125,64,2949,4,0

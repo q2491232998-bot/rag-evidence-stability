@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-12T08:08:33.177531+00:00",
+  "state": "rules_frozen_before_new_scoring",
+  "files_sha256": {
+    "configs/eswa_4090_validation_v1.json": "7dbf34dfb7d1688f583e37d7faff38b508602786692d4a7a698add72433a8991",
+    "research/eswa_4090_validation_protocol_v1.md": "9873f55e7bc1322736416e9f5a48ac668393c1fcb63409572af842a9d843ade5"
+  }
+}

@@ -1,0 +1,13 @@
+﻿model,dataset,seed,method,batch_size,n,context_differences,zero_change_one_sided95_upper
+qwen,qasper,17,random_native,8,192,47,
+qwen,qasper,17,random_gate_v2,8,192,0,0.015481679618674082
+qwen,qasper,29,random_native,8,192,48,
+qwen,qasper,29,random_gate_v2,8,192,5,
+qwen,qasper,43,random_native,8,192,49,
+qwen,qasper,43,random_gate_v2,8,192,3,
+qwen,hotpot,17,random_native,8,200,63,
+qwen,hotpot,17,random_gate_v2,8,200,2,
+qwen,hotpot,29,random_native,8,200,62,
+qwen,hotpot,29,random_gate_v2,8,200,5,
+qwen,hotpot,43,random_native,8,200,64,
+qwen,hotpot,43,random_gate_v2,8,200,4,

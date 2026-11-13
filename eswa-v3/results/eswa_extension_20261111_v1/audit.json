@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-12T03:00:31.916618+00:00",
+  "state": "complete",
+  "freeze_sha256": "b1c6e79145fca0ecb6a605a129662bfc185df65214521512c1057de2f1ca3391",
+  "request_count": 26656,
+  "counts": {
+    "independent_packs": 26656,
+    "actual_serial_values_different": 0,
+    "actual_serial_values": 199192,
+    "band_bound_holds_and_verified": 4704,
+    "initial_vectors_compared": 17248,
+    "initial_vectors_different_from_native": 0,
+    "random_initial_vectors_compared": 1176,
+    "random_initial_vectors_different": 0
+  },
+  "quality_request_rows": 24304,
+  "random_context_rows": 2352,
+  "reader_runtime": {
+    "state": "complete",
+    "utc": "2026-11-12T02:58:20.101978+00:00",
+    "unique_prompts": 1103,
+    "new_prompts": 90,
+    "reused_stage2": 1013,
+    "links": 24304,
+    "repeated_prompts": 16,
+    "repeat_identity": 16,
+    "answers_sha256": "c30c952982da3c2c1e425242d53b3fce248d30d701e0bf0acc8a341353e8a1c2",
+    "seconds": 4229.682107185014
+  },
+  "gpu_occupancy": {
+    "monitor_interval_seconds": 0.5,
+    "observations": 53689,
+    "external_observation_records": 7,
+    "speech_service_observation_records": 2,
+    "contaminated_attempts": 2,
+    "effective_requests": 26656,
+    "effective_requests_with_detected_foreign_process": 0,
+    "claim": "sampling evidence, not exclusion of subinterval activity"
+  },
+  "stage1_status": "failed_86.49_percent",
+  "new_independent_test_samples": false,
+  "same_stage2_samples": true,
+  "method_sources_unchanged": true,
+  "model_runs_added_in_analysis": false
+}

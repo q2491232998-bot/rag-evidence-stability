@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-11T11:17:12.226749+00:00",
+  "models": {
+    "qwen": {
+      "epsilon": 0.9375,
+      "development_maximum_error": 0.625,
+      "questions": 256,
+      "candidates": 19969,
+      "source_batch": 4,
+      "source_rep": 0
+    },
+    "bge": {
+      "epsilon": 0.1875,
+      "development_maximum_error": 0.125,
+      "questions": 64,
+      "candidates": 2949,
+      "source_batch": 4,
+      "source_rep": 0
+    }
+  },
+  "source": "old development only; no stage-2 evaluation score read for epsilon",
+  "multiplier": 1.5
+}

@@ -1,0 +1,62 @@
+parameter,value,source,meaning
+qasper_evaluation_papers,192,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+bge_calibration_papers,64,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+hotpot_dev_questions,200,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+qasper_candidate_cap,100,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+reranker_max_length,1024,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+context_tokens,512,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+top_k,10,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+gate_window,12,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+qwen_tau,0.25,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+reader_max_new_tokens,64,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+reader_max_input_tokens,2048,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+repetitions,2,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+seed,20261110,configs/eswa_gate_stage2_v1.json,frozen protocol parameter
+tau_grid,"[0.03125, 0.0625, 0.125, 0.25, 0.5, 1.0]",frozen configs / source / runtime / main_results.csv,configuration or original result denominator
+native_scan_batches,"[1, 2, 4, 8, 16, 32]",frozen configs / source / runtime / main_results.csv,configuration or original result denominator
+extension_native_batches,"2,8,16,32",frozen configs / source / runtime / main_results.csv,configuration or original result denominator
+band_batches,"4,8,32",frozen configs / source / runtime / main_results.csv,configuration or original result denominator
+random_seeds,"17,29,43",frozen configs / source / runtime / main_results.csv,configuration or original result denominator
+rounding_steps,"0.125,0.25,0.5",frozen configs / source / runtime / main_results.csv,configuration or original result denominator
+pytorch_version,2.5.1+cu121,frozen configs / source / runtime / main_results.csv,configuration or original result denominator
+transformers_version,4.57.6,frozen configs / source / runtime / main_results.csv,configuration or original result denominator
+qasper_nonempty_evidence_n,172,frozen configs / source / runtime / main_results.csv,configuration or original result denominator
+gpu_name,NVIDIA GeForce RTX 3090 Ti,frozen configs / source / runtime / main_results.csv,configuration or original result denominator
+bge_tau,0.125,frozen protocols / historical sampling / installed package receipt,"design or provenance, not a new empirical result"
+top_rescore_k,15,frozen protocols / historical sampling / installed package receipt,"design or provenance, not a new empirical result"
+epsilon_multiplier,1.5,frozen protocols / historical sampling / installed package receipt,"design or provenance, not a new empirical result"
+original_development_calibration,64,frozen protocols / historical sampling / installed package receipt,"design or provenance, not a new empirical result"
+original_development_diagnostic,128,frozen protocols / historical sampling / installed package receipt,"design or provenance, not a new empirical result"
+old_hotpot_observations,64,frozen protocols / historical sampling / installed package receipt,"design or provenance, not a new empirical result"
+old_musique_observations,96,frozen protocols / historical sampling / installed package receipt,"design or provenance, not a new empirical result"
+target_reduction_percent,90,frozen protocols / historical sampling / installed package receipt,"design or provenance, not a new empirical result"
+target_cost_percent,20,frozen protocols / historical sampling / installed package receipt,"design or provenance, not a new empirical result"
+confidence_percent,95,frozen protocols / historical sampling / installed package receipt,"design or provenance, not a new empirical result"
+codex_desktop_version,26.1103.7773.0,frozen protocols / historical sampling / installed package receipt,"design or provenance, not a new empirical result"
+independent_packs,26656,extension audit.json,independent saved-trace validation
+actual_serial_values_different,0,extension audit.json,independent saved-trace validation
+actual_serial_values,199192,extension audit.json,independent saved-trace validation
+band_bound_holds_and_verified,4704,extension audit.json,independent saved-trace validation
+initial_vectors_compared,17248,extension audit.json,independent saved-trace validation
+initial_vectors_different_from_native,0,extension audit.json,independent saved-trace validation
+random_initial_vectors_compared,1176,extension audit.json,independent saved-trace validation
+random_initial_vectors_different,0,extension audit.json,independent saved-trace validation
+reader_unique_prompts,1103,extension audit.json,exact prompt cache protocol; seconds includes waiting
+reader_new_prompts,90,extension audit.json,exact prompt cache protocol; seconds includes waiting
+reader_reused_stage2,1013,extension audit.json,exact prompt cache protocol; seconds includes waiting
+reader_links,24304,extension audit.json,exact prompt cache protocol; seconds includes waiting
+reader_repeated_prompts,16,extension audit.json,exact prompt cache protocol; seconds includes waiting
+reader_repeat_identity,16,extension audit.json,exact prompt cache protocol; seconds includes waiting
+reader_seconds,4229.682107185014,extension audit.json,exact prompt cache protocol; seconds includes waiting
+gpu_monitor_interval_seconds,0.5,extension audit.json,sampled GPU occupancy
+gpu_observations,53689,extension audit.json,sampled GPU occupancy
+gpu_external_observation_records,7,extension audit.json,sampled GPU occupancy
+gpu_speech_service_observation_records,2,extension audit.json,sampled GPU occupancy
+gpu_contaminated_attempts,2,extension audit.json,sampled GPU occupancy
+gpu_effective_requests,26656,extension audit.json,sampled GPU occupancy
+gpu_effective_requests_with_detected_foreign_process,0,extension audit.json,sampled GPU occupancy
+qasper_paper_overlap,0,sampling.json,history overlap audit
+qasper_id_overlap,0,sampling.json,history overlap audit
+qasper_generic_question_text_overlap,8,sampling.json,history overlap audit
+hotpot_id_text_overlap,0,sampling.json,history overlap audit
+retrieval_corpus_documents,5233329,candidate_manifest.json,Hotpot retrieval corpus

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-12T08:11:13.242746+00:00",
+  "inputs_sha256": "fc2efb84e23b97b4bb9284f19d46689a856081ef634d89789bc083fb5124c20e",
+  "counts": {
+    "calibration/hotpot": 32,
+    "calibration/qasper": 32,
+    "evaluation/hotpot": 200,
+    "evaluation/qasper": 192
+  },
+  "retrieval_corpus_documents": 5233329,
+  "candidate_construction_hardware": "source RTX3090Ti retrieval, CPU union, identical stage2 implementation"
+}

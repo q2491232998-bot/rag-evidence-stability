@@ -1,0 +1,52 @@
+{
+  "utc": "2026-11-11T11:17:12.435057+00:00",
+  "scoring_started": false,
+  "stage1_status": "failed_86.49_percent",
+  "user_authorized_A_then_B": true,
+  "files_sha256": {
+    "configs/eswa_extension_20261111_v1.json": "6558eb36c18c0413f1f4af729d0a39e911fb5c3a279a5e0d1336065351c97369",
+    "research/eswa_extension_20261111_protocol_v1.md": "4a144b04772205a574e326616fa540a2443f015516598439c5bce74e9b2797d8",
+    "src/eswa_extension_common_v1.py": "ea3e995fc8e71a65d4eafb30920ba135830237ba6bf735caf9ccf3639b8ca747",
+    "src/prepare_eswa_extension_v1.py": "910b8c70a8a3142479cadcc2ccfcabf0a93890e1374e2088f802d12b8a094040",
+    "src/run_eswa_extension_v1.py": "3130722f721cc5676e4c042a148885d8634a287503206b6e43ebb716dc8d7186",
+    "src/queue_eswa_extension_v1.py": "2cfbe0cc735dd8a59cdee1122e3ded04022e7c564945bb37aa7745bae07001fa",
+    "results/eswa_gate_stage2_v1/freeze.json": "526746b47f012748472689abb6d9a7de05f5d8098890fd15e9d3b333ae2eff39",
+    "results/eswa_gate_stage2_v1/inputs.jsonl": "873cf9242f35280d656d8fd32c3932a8638d79874cd68c42f2958a9e74dfe3fd",
+    "results/eswa_gate_stage2_v1/requests_qwen.jsonl": "7560ff94264f053f9529d10f85b531ad7c575cbc24334f9d5ddf008e7e4a8ca1",
+    "results/eswa_gate_stage2_v1/requests_bge.jsonl": "675d57fe3715bc9533278784bfb6c11bac4d7aa3464eb77b097db99f4d881e62",
+    "results/eswa_gate_stage2_v1/bge_calibration_requests.jsonl": "da2ded2445ddc48c346cb999e2c66643bb4bf6d79423f2b1a5a50b84519c611c",
+    "results/eswa_gate_stage2_v1/answers.jsonl": "1c214debbf0684cefe39e1aa4f3b9424faa467c1544e43845743a6935c26a544",
+    "results/eswa_gate_stage2_v1/reader_prompts.jsonl": "cf46b13c255c41f55ef9dd4a1f16c5a471e25d75bc7b96ef775df761842ea30d",
+    "results/eswa_gate_stage2_v1/reader_links.jsonl": "fe549e7914a531e0cc4d2c4bafa5e111dd1c1d998347f0ae3f7cc1f745f76511",
+    "results/eswa_gate_stage2_v1/timing_recovery_qwen.jsonl": "5336a22f7f90a8eecc362d1371779ad8dbeb3c38b3a7c270d589687512981284",
+    "results/eswa_supplement_v2/inputs.jsonl": "18e1e28c3b7af599efb0785cdd25818470c55b7ce4f41670791e95788f5481d7",
+    "results/eswa_supplement_v2/scores_qwen.jsonl": "7f059356765806641cc35f1bd2ee972c90bf6d5ccd96401ce7d7f96feb0fb703",
+    "results/eswa_extension_20261111_v1/epsilon_development_per_question.csv": "b107005e2ef40b73ca875ef39bb169138246c330ce9b8d6142f70324724c10db",
+    "results/eswa_extension_20261111_v1/schedule_bge.jsonl": "9b8383453d81122b4c34bbd18d956da32044c4b0f902281eb2d6f4e9616a49c7",
+    "results/eswa_extension_20261111_v1/schedule_qwen.jsonl": "6e13d0fe1ecd04fc9481d8e0586de4bde41853458080ae39fbd97d0276873ff3",
+    "results/eswa_extension_20261111_v1/epsilon.json": "65274287f4e5f8a214ae8b92fb9ed23a757903daf5a73aa3e5b42327c9cf77dc"
+  },
+  "band_synthetic_cases": 5600,
+  "epsilon": {
+    "qwen": {
+      "epsilon": 0.9375,
+      "development_maximum_error": 0.625,
+      "questions": 256,
+      "candidates": 19969,
+      "source_batch": 4,
+      "source_rep": 0
+    },
+    "bge": {
+      "epsilon": 0.1875,
+      "development_maximum_error": 0.125,
+      "questions": 64,
+      "candidates": 2949,
+      "source_batch": 4,
+      "source_rep": 0
+    }
+  },
+  "requests": {
+    "qwen": 14504,
+    "bge": 12152
+  }
+}

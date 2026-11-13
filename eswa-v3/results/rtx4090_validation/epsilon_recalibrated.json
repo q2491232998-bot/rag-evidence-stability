@@ -1,0 +1,52 @@
+{
+  "utc": "2026-11-12T19:48:21.529201+00:00",
+  "pooling": "one per reranker: both datasets, all batches, both repetitions, all candidates",
+  "models": {
+    "qwen": {
+      "epsilon": 0.75,
+      "maximum_absolute_error": 0.5,
+      "witness": {
+        "model": "qwen",
+        "id": "5a7efa7a55429930675135ea",
+        "dataset": "hotpot",
+        "batch_size": 4,
+        "rep": 0,
+        "candidate_count": 178,
+        "max_abs_error": 0.5,
+        "candidate_index": 10,
+        "batch_score": 1.625,
+        "serial_score": 1.125
+      },
+      "questions": 64,
+      "batches": [
+        4,
+        8,
+        32
+      ],
+      "repetitions": 2
+    },
+    "bge": {
+      "epsilon": 0.328125,
+      "maximum_absolute_error": 0.21875,
+      "witness": {
+        "model": "bge",
+        "id": "5ac3d2ac554299741d48a330",
+        "dataset": "hotpot",
+        "batch_size": 8,
+        "rep": 0,
+        "candidate_count": 174,
+        "max_abs_error": 0.21875,
+        "candidate_index": 132,
+        "batch_score": -5.84375,
+        "serial_score": -5.625
+      },
+      "questions": 64,
+      "batches": [
+        4,
+        8,
+        32
+      ],
+      "repetitions": 2
+    }
+  }
+}

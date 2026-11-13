@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-10T10:54:00.830884+00:00",
+  "sha256": {
+    "research/eswa_gate_stage2_authorization_20261110.md": "cd6470ace980121f109227f4d6809c7ee5b7957af430eb5e2f1f882cbb81d8d5",
+    "research/eswa_gate_stage2_protocol_20261110_v1.md": "c1b7b03329ef63b07091e086048e22f04d8c3290b7ebb9eeed06c1606d6790b1",
+    "configs/eswa_gate_stage2_v1.json": "992fd173505efbbcee45e4bbda85daf9e05fb315f9b66873263b12dc87aaa56c",
+    "src/eswa_gate_methods_v2.py": "82734fa6c366629328206220d484490e07d0f92893bdca26a39fd9d4cbfef727",
+    "src/eswa_stage2_metrics.py": "ec90905db4e58e896e22bcfdc2b4a4fcbcfb17979f11daa6c4a611c7c6cb709e"
+  },
+  "stage1": "未达到预设的90%（实际86.49%）",
+  "continuation": "user_decision",
+  "old_128_role": "development",
+  "new_stage2_scoring_started": false,
+  "no_paper": true
+}

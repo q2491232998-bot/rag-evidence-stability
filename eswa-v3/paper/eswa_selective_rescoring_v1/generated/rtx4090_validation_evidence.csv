@@ -1,0 +1,629 @@
+key,value,display,source,derivation
+vf_qwen_qasper_n,192,192,results/rtx4090_validation/per_question.csv,evaluation questions (serial rep0 rows)
+vf_qwen_qasper_serial_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 of serial rep0, x100"
+vf_qwen_qasper_native_4_cd,47,47,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=4 (rep1 identical)"
+vf_qwen_qasper_native_4_ans,18,18,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_native_4_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_native_4_time,0.3028912470171122,0.303,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_native_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_native_4_maxratio,0.36202637000357496,0.36,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_native_4_f1,0.45265819517225714,45.27,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_native_4_maxerr,0.390625,0.390625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_native_8_cd,47,47,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=8 (rep1 identical)"
+vf_qwen_qasper_native_8_ans,14,14,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_native_8_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_native_8_time,0.17315246034909737,0.173,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_native_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_native_8_maxratio,0.23610533777942133,0.24,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_native_8_f1,0.44599299343447313,44.60,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_native_8_maxerr,0.421875,0.421875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_native_32_cd,54,54,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=32 (rep1 identical)"
+vf_qwen_qasper_native_32_ans,16,16,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_native_32_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_native_32_time,0.13504642503787467,0.135,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_native_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_native_32_maxratio,0.5241607994943971,0.52,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_native_32_f1,0.44492860173190624,44.49,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_native_32_maxerr,0.375,0.375,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_gate_v2_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=4 (rep1 identical)"
+vf_qwen_qasper_gate_v2_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_gate_v2_4_resc,0.07325908740727316,7.33,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_gate_v2_4_time,0.4034178418766387,0.403,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_gate_v2_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_gate_v2_4_maxratio,0.9824182214258499,0.98,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_gate_v2_4_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_gate_v2_4_maxerr,0.390625,0.390625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_gate_v2_8_cd,1,1,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=8 (rep1 identical)"
+vf_qwen_qasper_gate_v2_8_ans,1,1,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_gate_v2_8_resc,0.07298236042910591,7.30,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_gate_v2_8_time,0.27445771641142497,0.274,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_gate_v2_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_gate_v2_8_maxratio,0.8789924003877219,0.88,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_gate_v2_8_f1,0.4478637441609886,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_gate_v2_8_maxerr,0.421875,0.421875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_gate_v2_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=32 (rep1 identical)"
+vf_qwen_qasper_gate_v2_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_gate_v2_32_resc,0.07170014141276079,7.17,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_gate_v2_32_time,0.23457876743021458,0.235,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_gate_v2_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_gate_v2_32_maxratio,0.9322135266001754,0.93,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_gate_v2_32_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_gate_v2_32_maxerr,0.375,0.375,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_top15_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=4 (rep1 identical)"
+vf_qwen_qasper_top15_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_top15_4_resc,0.39534124412531524,39.53,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_top15_4_time,0.6248288042413688,0.625,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_top15_4_slower,12,12,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_top15_4_maxratio,1.298244450047317,1.30,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_top15_4_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_top15_4_maxerr,0.390625,0.390625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_top15_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=8 (rep1 identical)"
+vf_qwen_qasper_top15_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_top15_8_resc,0.39534124412531524,39.53,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_top15_8_time,0.4950952921759257,0.495,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_top15_8_slower,8,8,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_top15_8_maxratio,1.1579431895366086,1.16,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_top15_8_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_top15_8_maxerr,0.421875,0.421875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_top15_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=32 (rep1 identical)"
+vf_qwen_qasper_top15_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_top15_32_resc,0.39534124412531524,39.53,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_top15_32_time,0.45683744458880615,0.457,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_top15_32_slower,6,6,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_top15_32_maxratio,1.1698292767234808,1.17,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_top15_32_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_top15_32_maxerr,0.375,0.375,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_band_transferred_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=4 (rep1 identical)"
+vf_qwen_qasper_band_transferred_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_band_transferred_4_resc,0.5415607349212193,54.16,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_band_transferred_4_time,0.7712177628081313,0.771,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_band_transferred_4_slower,54,54,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_band_transferred_4_maxratio,1.3046586728951528,1.30,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_band_transferred_4_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_band_transferred_4_maxerr,0.390625,0.390625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_band_transferred_4_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.9375
+vf_qwen_qasper_band_transferred_4_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_transferred_eps,0.9375,0.9375,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_qasper_band_transferred_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=8 (rep1 identical)"
+vf_qwen_qasper_band_transferred_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_band_transferred_8_resc,0.5418661730355749,54.19,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_band_transferred_8_time,0.6413014145217544,0.641,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_band_transferred_8_slower,28,28,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_band_transferred_8_maxratio,1.1805285890121042,1.18,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_band_transferred_8_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_band_transferred_8_maxerr,0.421875,0.421875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_band_transferred_8_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.9375
+vf_qwen_qasper_band_transferred_8_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_transferred_eps,0.9375,0.9375,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_qasper_band_transferred_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=32 (rep1 identical)"
+vf_qwen_qasper_band_transferred_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_band_transferred_32_resc,0.5418381381707639,54.18,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_band_transferred_32_time,0.6036801786972278,0.604,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_band_transferred_32_slower,26,26,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_band_transferred_32_maxratio,1.3995011684187817,1.40,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_band_transferred_32_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_band_transferred_32_maxerr,0.375,0.375,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_band_transferred_32_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.9375
+vf_qwen_qasper_band_transferred_32_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_transferred_eps,0.9375,0.9375,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_qasper_band_recalibrated_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=4 (rep1 identical)"
+vf_qwen_qasper_band_recalibrated_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_band_recalibrated_4_resc,0.48721039527475135,48.72,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_band_recalibrated_4_time,0.7203560354499384,0.720,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_band_recalibrated_4_slower,35,35,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_band_recalibrated_4_maxratio,1.314249576195184,1.31,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_band_recalibrated_4_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_band_recalibrated_4_maxerr,0.390625,0.390625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_band_recalibrated_4_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.75
+vf_qwen_qasper_band_recalibrated_4_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_recalibrated_eps,0.75,0.75,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_qasper_band_recalibrated_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=8 (rep1 identical)"
+vf_qwen_qasper_band_recalibrated_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_band_recalibrated_8_resc,0.4858590659339095,48.59,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_band_recalibrated_8_time,0.5894672828983196,0.589,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_band_recalibrated_8_slower,17,17,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_band_recalibrated_8_maxratio,1.2240673253421726,1.22,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_band_recalibrated_8_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_band_recalibrated_8_maxerr,0.421875,0.421875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_band_recalibrated_8_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.75
+vf_qwen_qasper_band_recalibrated_8_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_recalibrated_eps,0.75,0.75,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_qasper_band_recalibrated_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=32 (rep1 identical)"
+vf_qwen_qasper_band_recalibrated_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_qasper_band_recalibrated_32_resc,0.4865136158505126,48.65,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_qasper_band_recalibrated_32_time,0.553153295678016,0.553,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_qasper_band_recalibrated_32_slower,17,17,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_qasper_band_recalibrated_32_maxratio,1.4068969426286146,1.41,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_qasper_band_recalibrated_32_f1,0.44788770429133173,44.79,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_qasper_band_recalibrated_32_maxerr,0.375,0.375,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_qasper_band_recalibrated_32_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.75
+vf_qwen_qasper_band_recalibrated_32_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_recalibrated_eps,0.75,0.75,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_qasper_xhw,45,45,results/rtx4090_validation/cross_hardware_per_question.csv,4090 serial rep0 context != 3090 Ti serial rep0
+vf_qwen_qasper_xhw_n,192,192,results/rtx4090_validation/cross_hardware_per_question.csv,stage-2 questions rerun on 4090
+vf_qwen_qasper_xhw_maxdiff,0.53125,0.53125,results/rtx4090_validation/cross_hardware_per_question.csv,max per-question max |score_4090 - score_3090Ti|
+vf_qwen_hotpot_n,200,200,results/rtx4090_validation/per_question.csv,evaluation questions (serial rep0 rows)
+vf_qwen_hotpot_serial_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 of serial rep0, x100"
+vf_qwen_hotpot_native_4_cd,60,60,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=4 (rep1 identical)"
+vf_qwen_hotpot_native_4_ans,12,12,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_native_4_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_native_4_time,0.2842227826036125,0.284,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_native_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_native_4_maxratio,0.29099728615359277,0.29,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_native_4_f1,0.48159609752992105,48.16,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_native_4_maxerr,0.71875,0.71875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_native_8_cd,56,56,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=8 (rep1 identical)"
+vf_qwen_hotpot_native_8_ans,9,9,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_native_8_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_native_8_time,0.1515888571939669,0.152,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_native_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_native_8_maxratio,0.15749456993480188,0.16,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_native_8_f1,0.4865470779220779,48.65,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_native_8_maxerr,0.625,0.625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_native_32_cd,51,51,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=32 (rep1 identical)"
+vf_qwen_hotpot_native_32_ans,12,12,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_native_32_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_native_32_time,0.09075512264134088,0.091,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_native_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_native_32_maxratio,0.1216389146017522,0.12,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_native_32_f1,0.48647763347763345,48.65,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_native_32_maxerr,0.6875,0.6875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_gate_v2_4_cd,3,3,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=4 (rep1 identical)"
+vf_qwen_hotpot_gate_v2_4_ans,1,1,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_gate_v2_4_resc,0.013970875804356325,1.40,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_gate_v2_4_time,0.3060706121133685,0.306,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_gate_v2_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_gate_v2_4_maxratio,0.3993881891219146,0.40,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_gate_v2_4_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_gate_v2_4_maxerr,0.71875,0.71875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_gate_v2_8_cd,5,5,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=8 (rep1 identical)"
+vf_qwen_hotpot_gate_v2_8_ans,1,1,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_gate_v2_8_resc,0.014259900622556594,1.43,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_gate_v2_8_time,0.17336395601202084,0.173,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_gate_v2_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_gate_v2_8_maxratio,0.26826316375966625,0.27,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_gate_v2_8_f1,0.47738041125541125,47.74,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_gate_v2_8_maxerr,0.625,0.625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_gate_v2_32_cd,4,4,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=32 (rep1 identical)"
+vf_qwen_hotpot_gate_v2_32_ans,1,1,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_gate_v2_32_resc,0.01441203548748364,1.44,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_gate_v2_32_time,0.11303057977494627,0.113,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_gate_v2_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_gate_v2_32_maxratio,0.19886289733430945,0.20,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_gate_v2_32_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_gate_v2_32_maxerr,0.6875,0.6875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_top15_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=4 (rep1 identical)"
+vf_qwen_hotpot_top15_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_top15_4_resc,0.08676642222603674,8.68,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_top15_4_time,0.36945368464499956,0.369,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_top15_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_top15_4_maxratio,0.3980313004309443,0.40,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_top15_4_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_top15_4_maxerr,0.71875,0.71875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_top15_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=8 (rep1 identical)"
+vf_qwen_hotpot_top15_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_top15_8_resc,0.08676642222603674,8.68,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_top15_8_time,0.23705022370580447,0.237,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_top15_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_top15_8_maxratio,0.26600496133494733,0.27,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_top15_8_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_top15_8_maxerr,0.625,0.625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_top15_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=32 (rep1 identical)"
+vf_qwen_hotpot_top15_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_top15_32_resc,0.08676642222603674,8.68,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_top15_32_time,0.17624785344715319,0.176,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_top15_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_top15_32_maxratio,0.21551330439737462,0.22,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_top15_32_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_top15_32_maxerr,0.6875,0.6875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_band_transferred_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=4 (rep1 identical)"
+vf_qwen_hotpot_band_transferred_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_band_transferred_4_resc,0.15187075017848362,15.19,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_band_transferred_4_time,0.4344791191403817,0.434,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_band_transferred_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_band_transferred_4_maxratio,0.844883191256244,0.84,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_band_transferred_4_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_band_transferred_4_maxerr,0.71875,0.71875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_band_transferred_4_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.9375
+vf_qwen_hotpot_band_transferred_4_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_transferred_eps,0.9375,0.9375,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_hotpot_band_transferred_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=8 (rep1 identical)"
+vf_qwen_hotpot_band_transferred_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_band_transferred_8_resc,0.15116016637939217,15.12,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_band_transferred_8_time,0.30131234574538523,0.301,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_band_transferred_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_band_transferred_8_maxratio,0.6496817678760737,0.65,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_band_transferred_8_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_band_transferred_8_maxerr,0.625,0.625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_band_transferred_8_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.9375
+vf_qwen_hotpot_band_transferred_8_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_transferred_eps,0.9375,0.9375,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_hotpot_band_transferred_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=32 (rep1 identical)"
+vf_qwen_hotpot_band_transferred_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_band_transferred_32_resc,0.15167737133483913,15.17,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_band_transferred_32_time,0.24103758745646,0.241,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_band_transferred_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_band_transferred_32_maxratio,0.6833248969302771,0.68,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_band_transferred_32_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_band_transferred_32_maxerr,0.6875,0.6875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_band_transferred_32_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.9375
+vf_qwen_hotpot_band_transferred_32_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_transferred_eps,0.9375,0.9375,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_hotpot_band_recalibrated_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=4 (rep1 identical)"
+vf_qwen_hotpot_band_recalibrated_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_band_recalibrated_4_resc,0.12602450365784867,12.60,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_band_recalibrated_4_time,0.4088686735608597,0.409,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_band_recalibrated_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_band_recalibrated_4_maxratio,0.7250802536431281,0.73,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_band_recalibrated_4_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_band_recalibrated_4_maxerr,0.71875,0.71875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_band_recalibrated_4_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.75
+vf_qwen_hotpot_band_recalibrated_4_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_recalibrated_eps,0.75,0.75,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_hotpot_band_recalibrated_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=8 (rep1 identical)"
+vf_qwen_hotpot_band_recalibrated_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_band_recalibrated_8_resc,0.1251090560571959,12.51,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_band_recalibrated_8_time,0.2751726154824426,0.275,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_band_recalibrated_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_band_recalibrated_8_maxratio,0.5518994154003215,0.55,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_band_recalibrated_8_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_band_recalibrated_8_maxerr,0.625,0.625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_band_recalibrated_8_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.75
+vf_qwen_hotpot_band_recalibrated_8_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_recalibrated_eps,0.75,0.75,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_hotpot_band_recalibrated_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=32 (rep1 identical)"
+vf_qwen_hotpot_band_recalibrated_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_qwen_hotpot_band_recalibrated_32_resc,0.12539636454967118,12.54,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_qwen_hotpot_band_recalibrated_32_time,0.2153817907582116,0.215,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_qwen_hotpot_band_recalibrated_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_qwen_hotpot_band_recalibrated_32_maxratio,0.5521925259036368,0.55,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_qwen_hotpot_band_recalibrated_32_f1,0.4740470779220779,47.40,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_qwen_hotpot_band_recalibrated_32_maxerr,0.6875,0.6875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_qwen_hotpot_band_recalibrated_32_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.75
+vf_qwen_hotpot_band_recalibrated_32_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_qwen_band_recalibrated_eps,0.75,0.75,results/rtx4090_validation/per_question.csv,epsilon column
+vf_qwen_hotpot_xhw,71,71,results/rtx4090_validation/cross_hardware_per_question.csv,4090 serial rep0 context != 3090 Ti serial rep0
+vf_qwen_hotpot_xhw_n,200,200,results/rtx4090_validation/cross_hardware_per_question.csv,stage-2 questions rerun on 4090
+vf_qwen_hotpot_xhw_maxdiff,0.75,0.75,results/rtx4090_validation/cross_hardware_per_question.csv,max per-question max |score_4090 - score_3090Ti|
+vf_bge_qasper_n,192,192,results/rtx4090_validation/per_question.csv,evaluation questions (serial rep0 rows)
+vf_bge_qasper_serial_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 of serial rep0, x100"
+vf_bge_qasper_native_4_cd,16,16,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=4 (rep1 identical)"
+vf_bge_qasper_native_4_ans,3,3,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_native_4_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_native_4_time,0.30590516720872946,0.306,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_native_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_native_4_maxratio,0.44452172411292457,0.44,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_native_4_f1,0.46468707609266363,46.47,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_native_4_maxerr,0.125,0.125,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_native_8_cd,12,12,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=8 (rep1 identical)"
+vf_bge_qasper_native_8_ans,4,4,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_native_8_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_native_8_time,0.18838705034617137,0.188,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_native_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_native_8_maxratio,0.29372553457454464,0.29,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_native_8_f1,0.466461343491931,46.65,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_native_8_maxerr,0.1875,0.1875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_native_32_cd,14,14,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=32 (rep1 identical)"
+vf_bge_qasper_native_32_ans,4,4,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_native_32_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_native_32_time,0.11837362158452187,0.118,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_native_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_native_32_maxratio,0.33266398417196463,0.33,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_native_32_f1,0.46505075321415323,46.51,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_native_32_maxerr,0.140625,0.140625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_gate_v2_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=4 (rep1 identical)"
+vf_bge_qasper_gate_v2_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_gate_v2_4_resc,0.035573164514834166,3.56,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_gate_v2_4_time,0.3757641231505133,0.376,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_gate_v2_4_slower,1,1,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_gate_v2_4_maxratio,2.6031279473754823,2.60,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_gate_v2_4_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_gate_v2_4_maxerr,0.125,0.125,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_gate_v2_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=8 (rep1 identical)"
+vf_bge_qasper_gate_v2_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_gate_v2_8_resc,0.03558051668731367,3.56,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_gate_v2_8_time,0.2561782401852915,0.256,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_gate_v2_8_slower,1,1,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_gate_v2_8_maxratio,2.303884742182904,2.30,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_gate_v2_8_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_gate_v2_8_maxerr,0.1875,0.1875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_gate_v2_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=32 (rep1 identical)"
+vf_bge_qasper_gate_v2_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_gate_v2_32_resc,0.03675965138315023,3.68,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_gate_v2_32_time,0.18695246267089416,0.187,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_gate_v2_32_slower,1,1,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_gate_v2_32_maxratio,2.150491665842357,2.15,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_gate_v2_32_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_gate_v2_32_maxerr,0.140625,0.140625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_top15_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=4 (rep1 identical)"
+vf_bge_qasper_top15_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_top15_4_resc,0.39534124412531524,39.53,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_top15_4_time,0.6189015569375174,0.619,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_top15_4_slower,9,9,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_top15_4_maxratio,1.2731376574084023,1.27,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_top15_4_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_top15_4_maxerr,0.125,0.125,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_top15_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=8 (rep1 identical)"
+vf_bge_qasper_top15_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_top15_8_resc,0.39534124412531524,39.53,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_top15_8_time,0.5011132258221617,0.501,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_top15_8_slower,5,5,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_top15_8_maxratio,1.1570271305907383,1.16,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_top15_8_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_top15_8_maxerr,0.1875,0.1875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_top15_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=32 (rep1 identical)"
+vf_bge_qasper_top15_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_top15_32_resc,0.39534124412531524,39.53,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_top15_32_time,0.4327953039275641,0.433,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_top15_32_slower,4,4,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_top15_32_maxratio,1.1556381638636308,1.16,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_top15_32_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_top15_32_maxerr,0.140625,0.140625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_band_transferred_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=4 (rep1 identical)"
+vf_bge_qasper_band_transferred_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_band_transferred_4_resc,0.3214775712545702,32.15,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_band_transferred_4_time,0.5618386460250221,0.562,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_band_transferred_4_slower,7,7,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_band_transferred_4_maxratio,1.3793572927031534,1.38,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_band_transferred_4_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_band_transferred_4_maxerr,0.125,0.125,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_band_transferred_4_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.1875
+vf_bge_qasper_band_transferred_4_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_transferred_eps,0.1875,0.1875,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_qasper_band_transferred_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=8 (rep1 identical)"
+vf_bge_qasper_band_transferred_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_band_transferred_8_resc,0.32269486613747783,32.27,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_band_transferred_8_time,0.4432161125111567,0.443,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_band_transferred_8_slower,4,4,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_band_transferred_8_maxratio,1.1109994259692944,1.11,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_band_transferred_8_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_band_transferred_8_maxerr,0.1875,0.1875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_band_transferred_8_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.1875
+vf_bge_qasper_band_transferred_8_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_transferred_eps,0.1875,0.1875,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_qasper_band_transferred_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=32 (rep1 identical)"
+vf_bge_qasper_band_transferred_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_band_transferred_32_resc,0.3221963453917218,32.22,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_band_transferred_32_time,0.3741288683539813,0.374,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_band_transferred_32_slower,3,3,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_band_transferred_32_maxratio,1.0541514205572513,1.05,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_band_transferred_32_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_band_transferred_32_maxerr,0.140625,0.140625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_band_transferred_32_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.1875
+vf_bge_qasper_band_transferred_32_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_transferred_eps,0.1875,0.1875,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_qasper_band_recalibrated_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=4 (rep1 identical)"
+vf_bge_qasper_band_recalibrated_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_band_recalibrated_4_resc,0.3605561091035545,36.06,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_band_recalibrated_4_time,0.59744047565687,0.597,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_band_recalibrated_4_slower,10,10,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_band_recalibrated_4_maxratio,1.243243870263239,1.24,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_band_recalibrated_4_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_band_recalibrated_4_maxerr,0.125,0.125,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_band_recalibrated_4_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.328125
+vf_bge_qasper_band_recalibrated_4_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_recalibrated_eps,0.328125,0.328125,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_qasper_band_recalibrated_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=8 (rep1 identical)"
+vf_bge_qasper_band_recalibrated_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_band_recalibrated_8_resc,0.3609070035101321,36.09,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_band_recalibrated_8_time,0.4807087694340318,0.481,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_band_recalibrated_8_slower,6,6,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_band_recalibrated_8_maxratio,1.1739069737259018,1.17,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_band_recalibrated_8_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_band_recalibrated_8_maxerr,0.1875,0.1875,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_band_recalibrated_8_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.328125
+vf_bge_qasper_band_recalibrated_8_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_recalibrated_eps,0.328125,0.328125,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_qasper_band_recalibrated_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=32 (rep1 identical)"
+vf_bge_qasper_band_recalibrated_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_qasper_band_recalibrated_32_resc,0.36060264925147395,36.06,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_qasper_band_recalibrated_32_time,0.40895557113022135,0.409,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_qasper_band_recalibrated_32_slower,4,4,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_qasper_band_recalibrated_32_maxratio,1.1624503889604563,1.16,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_qasper_band_recalibrated_32_f1,0.46848481914821916,46.85,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_qasper_band_recalibrated_32_maxerr,0.140625,0.140625,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_qasper_band_recalibrated_32_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.328125
+vf_bge_qasper_band_recalibrated_32_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_recalibrated_eps,0.328125,0.328125,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_qasper_xhw,14,14,results/rtx4090_validation/cross_hardware_per_question.csv,4090 serial rep0 context != 3090 Ti serial rep0
+vf_bge_qasper_xhw_n,192,192,results/rtx4090_validation/cross_hardware_per_question.csv,stage-2 questions rerun on 4090
+vf_bge_qasper_xhw_maxdiff,0.125,0.125,results/rtx4090_validation/cross_hardware_per_question.csv,max per-question max |score_4090 - score_3090Ti|
+vf_bge_hotpot_n,200,200,results/rtx4090_validation/per_question.csv,evaluation questions (serial rep0 rows)
+vf_bge_hotpot_serial_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 of serial rep0, x100"
+vf_bge_hotpot_native_4_cd,15,15,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=4 (rep1 identical)"
+vf_bge_hotpot_native_4_ans,2,2,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_native_4_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_native_4_time,0.28302061230723996,0.283,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_native_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_native_4_maxratio,0.3426369668852024,0.34,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_native_4_f1,0.5297496808746809,52.97,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_native_4_maxerr,0.3125,0.3125,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_native_8_cd,17,17,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=8 (rep1 identical)"
+vf_bge_hotpot_native_8_ans,2,2,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_native_8_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_native_8_time,0.1603428299257965,0.160,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_native_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_native_8_maxratio,0.2282329730088326,0.23,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_native_8_f1,0.5244480935730935,52.44,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_native_8_maxerr,0.375,0.375,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_native_32_cd,19,19,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=native, batch=32 (rep1 identical)"
+vf_bge_hotpot_native_32_ans,2,2,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_native_32_resc,0.0,0.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_native_32_time,0.07449410223593542,0.074,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_native_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_native_32_maxratio,0.09625135377401439,0.10,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_native_32_f1,0.5244480935730935,52.44,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_native_32_maxerr,0.3408203125,0.34082,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_gate_v2_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=4 (rep1 identical)"
+vf_bge_hotpot_gate_v2_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_gate_v2_4_resc,0.007028837577432398,0.70,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_gate_v2_4_time,0.3020530799733525,0.302,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_gate_v2_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_gate_v2_4_maxratio,0.3982589050176416,0.40,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_gate_v2_4_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_gate_v2_4_maxerr,0.3125,0.3125,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_gate_v2_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=8 (rep1 identical)"
+vf_bge_hotpot_gate_v2_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_gate_v2_8_resc,0.006882889720182229,0.69,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_gate_v2_8_time,0.17771390089414513,0.178,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_gate_v2_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_gate_v2_8_maxratio,0.29532322832938523,0.30,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_gate_v2_8_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_gate_v2_8_maxerr,0.375,0.375,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_gate_v2_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=gate_v2, batch=32 (rep1 identical)"
+vf_bge_hotpot_gate_v2_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_gate_v2_32_resc,0.006954766398278691,0.70,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_gate_v2_32_time,0.09057605338852404,0.091,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_gate_v2_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_gate_v2_32_maxratio,0.1610418916558659,0.16,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_gate_v2_32_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_gate_v2_32_maxerr,0.3408203125,0.34082,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_top15_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=4 (rep1 identical)"
+vf_bge_hotpot_top15_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_top15_4_resc,0.08676642222603674,8.68,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_top15_4_time,0.3690381822168544,0.369,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_top15_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_top15_4_maxratio,0.51629125668724,0.52,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_top15_4_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_top15_4_maxerr,0.3125,0.3125,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_top15_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=8 (rep1 identical)"
+vf_bge_hotpot_top15_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_top15_8_resc,0.08676642222603674,8.68,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_top15_8_time,0.24420555180284959,0.244,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_top15_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_top15_8_maxratio,0.4338165939089775,0.43,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_top15_8_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_top15_8_maxerr,0.375,0.375,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_top15_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=top15, batch=32 (rep1 identical)"
+vf_bge_hotpot_top15_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_top15_32_resc,0.08676642222603674,8.68,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_top15_32_time,0.15927848561869515,0.159,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_top15_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_top15_32_maxratio,0.32394526264755497,0.32,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_top15_32_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_top15_32_maxerr,0.3408203125,0.34082,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_band_transferred_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=4 (rep1 identical)"
+vf_bge_hotpot_band_transferred_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_band_transferred_4_resc,0.07437741373160014,7.44,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_band_transferred_4_time,0.3575965440562984,0.358,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_band_transferred_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_band_transferred_4_maxratio,0.4816142919629814,0.48,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_band_transferred_4_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_band_transferred_4_maxerr,0.3125,0.3125,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_band_transferred_4_exq,8,8,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.1875
+vf_bge_hotpot_band_transferred_4_exc,9,9,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_transferred_eps,0.1875,0.1875,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_hotpot_band_transferred_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=8 (rep1 identical)"
+vf_bge_hotpot_band_transferred_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_band_transferred_8_resc,0.07464688077502481,7.46,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_band_transferred_8_time,0.23406065492787867,0.234,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_band_transferred_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_band_transferred_8_maxratio,0.637514711756224,0.64,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_band_transferred_8_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_band_transferred_8_maxerr,0.375,0.375,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_band_transferred_8_exq,7,7,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.1875
+vf_bge_hotpot_band_transferred_8_exc,8,8,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_transferred_eps,0.1875,0.1875,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_hotpot_band_transferred_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_transferred, batch=32 (rep1 identical)"
+vf_bge_hotpot_band_transferred_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_band_transferred_32_resc,0.07451945996912708,7.45,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_band_transferred_32_time,0.14908258194667134,0.149,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_band_transferred_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_band_transferred_32_maxratio,0.6698118117051478,0.67,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_band_transferred_32_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_band_transferred_32_maxerr,0.3408203125,0.34082,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_band_transferred_32_exq,9,9,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.1875
+vf_bge_hotpot_band_transferred_32_exc,9,9,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_transferred_eps,0.1875,0.1875,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_hotpot_band_recalibrated_4_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=4 (rep1 identical)"
+vf_bge_hotpot_band_recalibrated_4_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_band_recalibrated_4_resc,0.08993189335253744,8.99,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_band_recalibrated_4_time,0.3705074439125974,0.371,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_band_recalibrated_4_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_band_recalibrated_4_maxratio,0.5672685592353515,0.57,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_band_recalibrated_4_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_band_recalibrated_4_maxerr,0.3125,0.3125,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_band_recalibrated_4_exq,0,0,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.328125
+vf_bge_hotpot_band_recalibrated_4_exc,0,0,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_recalibrated_eps,0.328125,0.328125,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_hotpot_band_recalibrated_8_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=8 (rep1 identical)"
+vf_bge_hotpot_band_recalibrated_8_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_band_recalibrated_8_resc,0.08998934671456432,9.00,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_band_recalibrated_8_time,0.24860200095670107,0.249,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_band_recalibrated_8_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_band_recalibrated_8_maxratio,0.4751426113978653,0.48,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_band_recalibrated_8_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_band_recalibrated_8_maxerr,0.375,0.375,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_band_recalibrated_8_exq,1,1,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.328125
+vf_bge_hotpot_band_recalibrated_8_exc,1,1,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_recalibrated_eps,0.328125,0.328125,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_hotpot_band_recalibrated_32_cd,0,0,results/rtx4090_validation/per_question.csv,"rep0 questions with context_sha256 != serial rep0, method=band_recalibrated, batch=32 (rep1 identical)"
+vf_bge_hotpot_band_recalibrated_32_ans,0,0,results/rtx4090_validation/per_question.csv,rep0 questions with answer string != serial
+vf_bge_hotpot_band_recalibrated_32_resc,0.08990814500270342,8.99,results/rtx4090_validation/per_question.csv,"mean rescored_fraction over questions, x100"
+vf_bge_hotpot_band_recalibrated_32_time,0.1623032213237196,0.162,results/rtx4090_validation/per_question.csv,sum of per-question two-repeat medians / same for serial
+vf_bge_hotpot_band_recalibrated_32_slower,0,0,results/rtx4090_validation/per_question.csv,questions with slower_than_serial
+vf_bge_hotpot_band_recalibrated_32_maxratio,0.3282808248569616,0.33,results/rtx4090_validation/per_question.csv,max per-question time ratio
+vf_bge_hotpot_band_recalibrated_32_f1,0.5264163475413476,52.64,results/rtx4090_validation/per_question.csv,"mean answer_f1 rep0, x100"
+vf_bge_hotpot_band_recalibrated_32_maxerr,0.3408203125,0.34082,results/rtx4090_validation/per_question.csv,max over questions of max_abs_batch_serial_error
+vf_bge_hotpot_band_recalibrated_32_exq,1,1,results/rtx4090_validation/per_question.csv,questions with any candidate error > epsilon=0.328125
+vf_bge_hotpot_band_recalibrated_32_exc,1,1,results/rtx4090_validation/per_question.csv,candidates with error > epsilon
+vf_bge_band_recalibrated_eps,0.328125,0.328125,results/rtx4090_validation/per_question.csv,epsilon column
+vf_bge_hotpot_xhw,17,17,results/rtx4090_validation/cross_hardware_per_question.csv,4090 serial rep0 context != 3090 Ti serial rep0
+vf_bge_hotpot_xhw_n,200,200,results/rtx4090_validation/cross_hardware_per_question.csv,stage-2 questions rerun on 4090
+vf_bge_hotpot_xhw_maxdiff,0.3125,0.3125,results/rtx4090_validation/cross_hardware_per_question.csv,max per-question max |score_4090 - score_3090Ti|
+vf_qwen_recal_calmax,0.5,0.5,results/rtx4090_validation/per_question.csv,recalibrated epsilon / 1.5 (calibration maximum)
+vf_qwen_eval_maxerr,0.71875,0.71875,results/rtx4090_validation/per_question.csv,max native batch-serial error over all evaluation cells
+vf_bge_recal_calmax,0.21875,0.21875,results/rtx4090_validation/per_question.csv,recalibrated epsilon / 1.5 (calibration maximum)
+vf_bge_eval_maxerr,0.375,0.375,results/rtx4090_validation/per_question.csv,max native batch-serial error over all evaluation cells
+vf_qwen_qasper_native_cd_range,,47--54,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_qwen_qasper_native_ans_range,,14--18,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_qwen_qasper_gate_v2_cd_range,,0--1,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_qwen_qasper_gate_v2_ans_range,,0--1,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_qwen_qasper_top15_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_qwen_qasper_top15_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_qwen_qasper_band_transferred_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_qwen_qasper_band_transferred_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_qwen_qasper_band_recalibrated_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_qwen_qasper_band_recalibrated_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_qwen_qasper_band_transferred_exq_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of exceeding questions
+vf_qwen_qasper_band_recalibrated_exq_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of exceeding questions
+vf_qwen_hotpot_native_cd_range,,51--60,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_qwen_hotpot_native_ans_range,,9--12,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_qwen_hotpot_gate_v2_cd_range,,3--5,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_qwen_hotpot_gate_v2_ans_range,,1,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_qwen_hotpot_top15_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_qwen_hotpot_top15_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_qwen_hotpot_band_transferred_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_qwen_hotpot_band_transferred_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_qwen_hotpot_band_recalibrated_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_qwen_hotpot_band_recalibrated_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_qwen_hotpot_band_transferred_exq_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of exceeding questions
+vf_qwen_hotpot_band_recalibrated_exq_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of exceeding questions
+vf_bge_qasper_native_cd_range,,12--16,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_bge_qasper_native_ans_range,,3--4,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_bge_qasper_gate_v2_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_bge_qasper_gate_v2_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_bge_qasper_top15_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_bge_qasper_top15_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_bge_qasper_band_transferred_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_bge_qasper_band_transferred_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_bge_qasper_band_recalibrated_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_bge_qasper_band_recalibrated_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_bge_qasper_band_transferred_exq_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of exceeding questions
+vf_bge_qasper_band_recalibrated_exq_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of exceeding questions
+vf_bge_hotpot_native_cd_range,,15--19,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_bge_hotpot_native_ans_range,,2,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_bge_hotpot_gate_v2_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_bge_hotpot_gate_v2_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_bge_hotpot_top15_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_bge_hotpot_top15_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_bge_hotpot_band_transferred_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_bge_hotpot_band_transferred_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_bge_hotpot_band_recalibrated_cd_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of cd
+vf_bge_hotpot_band_recalibrated_ans_range,,0,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of ans
+vf_bge_hotpot_band_transferred_exq_range,,7--9,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of exceeding questions
+vf_bge_hotpot_band_recalibrated_exq_range,,0--1,results/rtx4090_validation/per_question.csv,min--max over batches 4/8/32 of exceeding questions
+vf_ub_192,1.5481679618674082,1.55,results/rtx4090_validation/per_question.csv,one-sided 95% upper bound for 0/192
+vf_ub_200,1.4867039231272083,1.49,results/rtx4090_validation/per_question.csv,0/200
+vf_qasper_dev_n,87,87,results/rtx4090_validation/per_question.csv,qwen serial rep0 QASPER rows with source_split=dev
+vf_qasper_test_n,105,105,results/rtx4090_validation/per_question.csv,qwen serial rep0 QASPER rows with source_split=test

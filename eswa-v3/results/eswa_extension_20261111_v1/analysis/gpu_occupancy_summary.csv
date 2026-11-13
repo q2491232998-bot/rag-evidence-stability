@@ -1,0 +1,2 @@
+﻿monitor_interval_seconds,observations,external_observation_records,speech_service_observation_records,contaminated_attempts,effective_requests,effective_requests_with_detected_foreign_process,claim
+0.5,53689,7,2,2,26656,0,"sampling evidence, not exclusion of subinterval activity"

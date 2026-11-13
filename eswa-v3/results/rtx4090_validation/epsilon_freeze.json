@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-12T19:48:21.917072+00:00",
+  "epsilon_sha256": "d2e87b729784e15e2917dbe391fd7d7655266240d1bf7af32f0569834a9a0618",
+  "calibration_records_sha256": {
+    "results/eswa_4090_validation_v1/calibration_qwen.jsonl": "a7d3b0289c1b5c128c70fa21d8bebc26e59bb233d98fa580aba2c3dc01b61156",
+    "results/eswa_4090_validation_v1/calibration_bge.jsonl": "685e92fb9d4ad61d04f287bd66c25467db0874e5719bcaa4e9dd413030809ca2"
+  },
+  "evaluation_not_started": true,
+  "protocol_freeze_sha256": "fe9c2424de0c7036d15cc881c880737a1afcd0a66c3fb72dd02d2b7d9a9874fa"
+}
