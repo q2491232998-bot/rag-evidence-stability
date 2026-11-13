@@ -1,0 +1,5 @@
+﻿model,dataset,questions,context_differences_vs_3090ti_rep0,context_differences_vs_3090ti_rep1,member_differences_vs_3090ti_rep0,baseline_repeat_context_disagreements,max_score_difference
+qwen,hotpot,200,71,71,32,0,0.75
+qwen,qasper,192,45,45,25,0,0.53125
+bge,hotpot,200,17,17,9,0,0.3125
+bge,qasper,192,14,14,7,0,0.125

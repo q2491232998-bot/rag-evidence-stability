@@ -1,0 +1,21 @@
+{
+  "output": "results/eswa_4090_validation_v1",
+  "data": "data/eswa_4090_validation_v1",
+  "seed": 20261112,
+  "gpu_uuid": "GPU-REPLACE-WITH-LOCAL-UUID",
+  "batches": [4, 8, 32],
+  "taus": {"qwen": 0.25, "bge": 0.125},
+  "transferred_epsilons": {"qwen": 0.9375, "bge": 0.1875},
+  "epsilon_multiplier": 1.5,
+  "calibration_questions_per_dataset": 32,
+  "calibration_batches": [4, 8, 32],
+  "epsilon_pooling": "one per reranker: both datasets, all batches, both repetitions, all candidates",
+  "evaluation_questions": {"qasper": 192, "hotpot": 200},
+  "repetitions": 2,
+  "cross_hardware_repetitions": 1,
+  "maximum_window_seconds": 86400,
+  "maximum_result_bytes": 3221225472,
+  "minimum_free_bytes": 6442450944,
+  "gpu_monitor_interval_seconds": 0.5,
+  "maximum_contaminated_attempts_per_request": 3
+}

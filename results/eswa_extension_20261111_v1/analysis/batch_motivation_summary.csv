@@ -1,0 +1,6 @@
+﻿source,model,dataset,batch_sizes,n,context_varies_questions,answer_varies_questions,normalized_answer_varies_questions
+stage2_qwen_qasper,qwen,qasper,"[1, 2, 4, 8, 16, 32]",192,83,34,32
+extension_native,bge,hotpot,"[2, 8, 16, 32]",200,19,1,1
+extension_native,bge,qasper,"[2, 8, 16, 32]",192,5,2,2
+extension_native,qwen,hotpot,"[2, 8, 16, 32]",200,93,18,17
+extension_native,qwen,qasper,"[2, 8, 16, 32]",192,74,31,31

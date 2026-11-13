@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-13T06:43:12.480231+00:00",
+  "checks": {
+    "independent_pack_records": 26896,
+    "rescored_values_checked": 249138
+  },
+  "all_planned_requests_present": true,
+  "all_saved_contexts_rebuilt": true,
+  "all_valid_timings_observed_isolated": true,
+  "rescoring_reference_errors": 0,
+  "freeze_sha256": "fe9c2424de0c7036d15cc881c880737a1afcd0a66c3fb72dd02d2b7d9a9874fa",
+  "epsilon_freeze_sha256": "b5e0b898dbd7935f731431db7e1a18c78f6252558eaf46d48f5442721b6e905a"
+}

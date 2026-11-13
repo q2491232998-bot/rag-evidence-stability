@@ -1,0 +1,3 @@
+model,id,method,batch_size,rep,seed,role,attempt,total_seconds,selected,rescored_count,context_sha256,matches_effective_context,matches_effective_scores,external_gpu_observation_count
+qwen,7fba61426737394304e307cdc7537225f6253150,gate_v2,2,0,,scan,0,0.381413595052436,"[8, 0, 5, 4]",8,4666210a9f60d9851b862933e1a97129f3a785fafda92ad693e72dc054d59168,True,True,1
+qwen,5a8a367a55429930ff3c0d03,gate_v2,8,1,,scan,0,1.1362320719636045,"[0, 8, 3, 42, 113]",5,5cb60b4d4ec7df6ab8feaf703ee2cfd3c391eaef03d08750a9c0a5ca23081e3e,True,True,2

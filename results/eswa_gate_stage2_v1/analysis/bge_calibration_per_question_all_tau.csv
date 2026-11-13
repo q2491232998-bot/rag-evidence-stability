@@ -1,0 +1,385 @@
+﻿id,paper_id,tau,selected,serial_selected,context_equal_serial,members_equal_serial,rescored_count,rescored_fraction,mode
+441be93e2830cc0fc65afad6959db92754c9f5a8,1911.03090,0.03125,"[3, 2, 0, 1]","[3, 2, 0, 1]",True,True,0,0.0,saved_calibration_score_simulation
+441be93e2830cc0fc65afad6959db92754c9f5a8,1911.03090,0.0625,"[3, 2, 0, 1]","[3, 2, 0, 1]",True,True,0,0.0,saved_calibration_score_simulation
+441be93e2830cc0fc65afad6959db92754c9f5a8,1911.03090,0.125,"[3, 2, 0, 1]","[3, 2, 0, 1]",True,True,2,0.09090909090909091,saved_calibration_score_simulation
+441be93e2830cc0fc65afad6959db92754c9f5a8,1911.03090,0.25,"[3, 2, 0, 1]","[3, 2, 0, 1]",True,True,2,0.09090909090909091,saved_calibration_score_simulation
+441be93e2830cc0fc65afad6959db92754c9f5a8,1911.03090,0.5,"[3, 2, 0, 1]","[3, 2, 0, 1]",True,True,6,0.2727272727272727,saved_calibration_score_simulation
+441be93e2830cc0fc65afad6959db92754c9f5a8,1911.03090,1.0,"[3, 2, 0, 1]","[3, 2, 0, 1]",True,True,6,0.2727272727272727,saved_calibration_score_simulation
+79e61134a6e29141cd19252571ffc92a0b4bc97f,1907.05338,0.03125,"[10, 3]","[10, 3]",True,True,0,0.0,saved_calibration_score_simulation
+79e61134a6e29141cd19252571ffc92a0b4bc97f,1907.05338,0.0625,"[10, 3]","[10, 3]",True,True,0,0.0,saved_calibration_score_simulation
+79e61134a6e29141cd19252571ffc92a0b4bc97f,1907.05338,0.125,"[10, 3]","[10, 3]",True,True,0,0.0,saved_calibration_score_simulation
+79e61134a6e29141cd19252571ffc92a0b4bc97f,1907.05338,0.25,"[10, 3]","[10, 3]",True,True,0,0.0,saved_calibration_score_simulation
+79e61134a6e29141cd19252571ffc92a0b4bc97f,1907.05338,0.5,"[10, 3]","[10, 3]",True,True,2,0.08,saved_calibration_score_simulation
+79e61134a6e29141cd19252571ffc92a0b4bc97f,1907.05338,1.0,"[10, 3]","[10, 3]",True,True,2,0.08,saved_calibration_score_simulation
+3b4077776f4e828f0d1687d0ce8018c9bce4fdc6,1904.02306,0.03125,"[0, 16, 35, 34, 36]","[0, 16, 35, 34, 36]",True,True,0,0.0,saved_calibration_score_simulation
+3b4077776f4e828f0d1687d0ce8018c9bce4fdc6,1904.02306,0.0625,"[0, 16, 35, 34, 36]","[0, 16, 35, 34, 36]",True,True,0,0.0,saved_calibration_score_simulation
+3b4077776f4e828f0d1687d0ce8018c9bce4fdc6,1904.02306,0.125,"[0, 16, 35, 34, 36]","[0, 16, 35, 34, 36]",True,True,0,0.0,saved_calibration_score_simulation
+3b4077776f4e828f0d1687d0ce8018c9bce4fdc6,1904.02306,0.25,"[0, 16, 35, 34, 36]","[0, 16, 35, 34, 36]",True,True,0,0.0,saved_calibration_score_simulation
+3b4077776f4e828f0d1687d0ce8018c9bce4fdc6,1904.02306,0.5,"[0, 16, 35, 34, 36]","[0, 16, 35, 34, 36]",True,True,2,0.043478260869565216,saved_calibration_score_simulation
+3b4077776f4e828f0d1687d0ce8018c9bce4fdc6,1904.02306,1.0,"[0, 16, 35, 34, 36]","[0, 16, 35, 34, 36]",True,True,5,0.10869565217391304,saved_calibration_score_simulation
+a51c680a63ee393792d885f66de75484dc6bc9bc,1809.05807,0.03125,"[4, 20, 21, 36, 51]","[4, 20, 21, 36, 51]",True,True,0,0.0,saved_calibration_score_simulation
+a51c680a63ee393792d885f66de75484dc6bc9bc,1809.05807,0.0625,"[4, 20, 21, 36, 51]","[4, 20, 21, 36, 51]",True,True,0,0.0,saved_calibration_score_simulation
+a51c680a63ee393792d885f66de75484dc6bc9bc,1809.05807,0.125,"[4, 20, 21, 36, 51]","[4, 20, 21, 36, 51]",True,True,4,0.07547169811320754,saved_calibration_score_simulation
+a51c680a63ee393792d885f66de75484dc6bc9bc,1809.05807,0.25,"[4, 20, 21, 36, 51]","[4, 20, 21, 36, 51]",True,True,5,0.09433962264150944,saved_calibration_score_simulation
+a51c680a63ee393792d885f66de75484dc6bc9bc,1809.05807,0.5,"[4, 20, 21, 36, 51]","[4, 20, 21, 36, 51]",True,True,5,0.09433962264150944,saved_calibration_score_simulation
+a51c680a63ee393792d885f66de75484dc6bc9bc,1809.05807,1.0,"[4, 20, 21, 36, 51]","[4, 20, 21, 36, 51]",True,True,5,0.09433962264150944,saved_calibration_score_simulation
+ba39317e918b4386765f88e8c8ae99f9a098c935,1703.04009,0.03125,"[1, 9, 5]","[1, 9, 5]",True,True,0,0.0,saved_calibration_score_simulation
+ba39317e918b4386765f88e8c8ae99f9a098c935,1703.04009,0.0625,"[1, 9, 5]","[1, 9, 5]",True,True,0,0.0,saved_calibration_score_simulation
+ba39317e918b4386765f88e8c8ae99f9a098c935,1703.04009,0.125,"[1, 9, 5]","[1, 9, 5]",True,True,0,0.0,saved_calibration_score_simulation
+ba39317e918b4386765f88e8c8ae99f9a098c935,1703.04009,0.25,"[1, 9, 5]","[1, 9, 5]",True,True,0,0.0,saved_calibration_score_simulation
+ba39317e918b4386765f88e8c8ae99f9a098c935,1703.04009,0.5,"[1, 9, 5]","[1, 9, 5]",True,True,0,0.0,saved_calibration_score_simulation
+ba39317e918b4386765f88e8c8ae99f9a098c935,1703.04009,1.0,"[1, 9, 5]","[1, 9, 5]",True,True,2,0.1,saved_calibration_score_simulation
+b3b9d7c8722e8ec41cbbae40e68458485a5ba25c,1910.07924,0.03125,"[1, 0, 2, 3, 26, 21]","[1, 0, 2, 3, 26, 21]",True,True,4,0.04819277108433735,saved_calibration_score_simulation
+b3b9d7c8722e8ec41cbbae40e68458485a5ba25c,1910.07924,0.0625,"[1, 0, 2, 3, 26, 21]","[1, 0, 2, 3, 26, 21]",True,True,4,0.04819277108433735,saved_calibration_score_simulation
+b3b9d7c8722e8ec41cbbae40e68458485a5ba25c,1910.07924,0.125,"[1, 0, 2, 3, 26, 21]","[1, 0, 2, 3, 26, 21]",True,True,4,0.04819277108433735,saved_calibration_score_simulation
+b3b9d7c8722e8ec41cbbae40e68458485a5ba25c,1910.07924,0.25,"[1, 0, 2, 3, 26, 21]","[1, 0, 2, 3, 26, 21]",True,True,4,0.04819277108433735,saved_calibration_score_simulation
+b3b9d7c8722e8ec41cbbae40e68458485a5ba25c,1910.07924,0.5,"[1, 0, 2, 3, 26, 21]","[1, 0, 2, 3, 26, 21]",True,True,4,0.04819277108433735,saved_calibration_score_simulation
+b3b9d7c8722e8ec41cbbae40e68458485a5ba25c,1910.07924,1.0,"[1, 0, 2, 3, 26, 21]","[1, 0, 2, 3, 26, 21]",True,True,5,0.060240963855421686,saved_calibration_score_simulation
+d6a815d24c46557827d8aca65d3ffd008ac1bc07,1803.02914,0.03125,"[4, 8, 0, 18, 20]","[4, 8, 0, 18, 20]",True,True,0,0.0,saved_calibration_score_simulation
+d6a815d24c46557827d8aca65d3ffd008ac1bc07,1803.02914,0.0625,"[4, 8, 0, 18, 20]","[4, 8, 0, 18, 20]",True,True,0,0.0,saved_calibration_score_simulation
+d6a815d24c46557827d8aca65d3ffd008ac1bc07,1803.02914,0.125,"[4, 8, 0, 18, 20]","[4, 8, 0, 18, 20]",True,True,2,0.07692307692307693,saved_calibration_score_simulation
+d6a815d24c46557827d8aca65d3ffd008ac1bc07,1803.02914,0.25,"[4, 8, 0, 18, 20]","[4, 8, 0, 18, 20]",True,True,2,0.07692307692307693,saved_calibration_score_simulation
+d6a815d24c46557827d8aca65d3ffd008ac1bc07,1803.02914,0.5,"[4, 8, 0, 18, 20]","[4, 8, 0, 18, 20]",True,True,2,0.07692307692307693,saved_calibration_score_simulation
+d6a815d24c46557827d8aca65d3ffd008ac1bc07,1803.02914,1.0,"[4, 8, 0, 18, 20]","[4, 8, 0, 18, 20]",True,True,4,0.15384615384615385,saved_calibration_score_simulation
+8cf52ba480d372fc15024b3db704952f10fdca27,1802.02614,0.03125,"[26, 17, 12, 15, 32]","[26, 17, 12, 15, 32]",True,True,0,0.0,saved_calibration_score_simulation
+8cf52ba480d372fc15024b3db704952f10fdca27,1802.02614,0.0625,"[26, 17, 12, 15, 32]","[26, 17, 12, 15, 32]",True,True,0,0.0,saved_calibration_score_simulation
+8cf52ba480d372fc15024b3db704952f10fdca27,1802.02614,0.125,"[26, 17, 12, 15, 32]","[26, 17, 12, 15, 32]",True,True,0,0.0,saved_calibration_score_simulation
+8cf52ba480d372fc15024b3db704952f10fdca27,1802.02614,0.25,"[26, 17, 12, 15, 32]","[26, 17, 12, 15, 32]",True,True,2,0.043478260869565216,saved_calibration_score_simulation
+8cf52ba480d372fc15024b3db704952f10fdca27,1802.02614,0.5,"[26, 17, 12, 15, 32]","[26, 17, 12, 15, 32]",True,True,2,0.043478260869565216,saved_calibration_score_simulation
+8cf52ba480d372fc15024b3db704952f10fdca27,1802.02614,1.0,"[26, 17, 12, 15, 32]","[26, 17, 12, 15, 32]",True,True,2,0.043478260869565216,saved_calibration_score_simulation
+c3ce95658eea1e62193570955f105839de3d7e2d,1911.03324,0.03125,"[0, 2, 1, 21]","[0, 2, 1, 21]",True,True,2,0.03508771929824561,saved_calibration_score_simulation
+c3ce95658eea1e62193570955f105839de3d7e2d,1911.03324,0.0625,"[0, 2, 1, 21]","[0, 2, 1, 21]",True,True,2,0.03508771929824561,saved_calibration_score_simulation
+c3ce95658eea1e62193570955f105839de3d7e2d,1911.03324,0.125,"[0, 2, 1, 21]","[0, 2, 1, 21]",True,True,2,0.03508771929824561,saved_calibration_score_simulation
+c3ce95658eea1e62193570955f105839de3d7e2d,1911.03324,0.25,"[0, 2, 1, 21]","[0, 2, 1, 21]",True,True,4,0.07017543859649122,saved_calibration_score_simulation
+c3ce95658eea1e62193570955f105839de3d7e2d,1911.03324,0.5,"[0, 2, 1, 21]","[0, 2, 1, 21]",True,True,4,0.07017543859649122,saved_calibration_score_simulation
+c3ce95658eea1e62193570955f105839de3d7e2d,1911.03324,1.0,"[0, 2, 1, 21]","[0, 2, 1, 21]",True,True,6,0.10526315789473684,saved_calibration_score_simulation
+d323f0d65b57b30ae85fb9f24298927a3d1216e9,1810.12897,0.03125,"[0, 1, 2]","[0, 1, 2]",True,True,0,0.0,saved_calibration_score_simulation
+d323f0d65b57b30ae85fb9f24298927a3d1216e9,1810.12897,0.0625,"[0, 1, 2]","[0, 1, 2]",True,True,0,0.0,saved_calibration_score_simulation
+d323f0d65b57b30ae85fb9f24298927a3d1216e9,1810.12897,0.125,"[0, 1, 2]","[0, 1, 2]",True,True,0,0.0,saved_calibration_score_simulation
+d323f0d65b57b30ae85fb9f24298927a3d1216e9,1810.12897,0.25,"[0, 1, 2]","[0, 1, 2]",True,True,0,0.0,saved_calibration_score_simulation
+d323f0d65b57b30ae85fb9f24298927a3d1216e9,1810.12897,0.5,"[0, 1, 2]","[0, 1, 2]",True,True,2,0.08,saved_calibration_score_simulation
+d323f0d65b57b30ae85fb9f24298927a3d1216e9,1810.12897,1.0,"[0, 1, 2]","[0, 1, 2]",True,True,2,0.08,saved_calibration_score_simulation
+3098793595252039f363ee1150d4ea956f2504b8,1911.06919,0.03125,"[3, 0, 14, 26, 60]","[3, 0, 26, 14, 60]",False,True,0,0.0,saved_calibration_score_simulation
+3098793595252039f363ee1150d4ea956f2504b8,1911.06919,0.0625,"[3, 0, 14, 26, 60]","[3, 0, 26, 14, 60]",False,True,0,0.0,saved_calibration_score_simulation
+3098793595252039f363ee1150d4ea956f2504b8,1911.06919,0.125,"[3, 0, 26, 14, 60]","[3, 0, 26, 14, 60]",True,True,4,0.06153846153846154,saved_calibration_score_simulation
+3098793595252039f363ee1150d4ea956f2504b8,1911.06919,0.25,"[3, 0, 26, 14, 60]","[3, 0, 26, 14, 60]",True,True,4,0.06153846153846154,saved_calibration_score_simulation
+3098793595252039f363ee1150d4ea956f2504b8,1911.06919,0.5,"[3, 0, 26, 14, 60]","[3, 0, 26, 14, 60]",True,True,4,0.06153846153846154,saved_calibration_score_simulation
+3098793595252039f363ee1150d4ea956f2504b8,1911.06919,1.0,"[3, 0, 26, 14, 60]","[3, 0, 26, 14, 60]",True,True,5,0.07692307692307693,saved_calibration_score_simulation
+50c441a9cc7345a0fa408d1ce2e13f194c1e82a8,1911.11161,0.03125,"[0, 2, 3]","[0, 2, 3]",True,True,0,0.0,saved_calibration_score_simulation
+50c441a9cc7345a0fa408d1ce2e13f194c1e82a8,1911.11161,0.0625,"[0, 2, 3]","[0, 2, 3]",True,True,2,0.1111111111111111,saved_calibration_score_simulation
+50c441a9cc7345a0fa408d1ce2e13f194c1e82a8,1911.11161,0.125,"[0, 2, 3]","[0, 2, 3]",True,True,2,0.1111111111111111,saved_calibration_score_simulation
+50c441a9cc7345a0fa408d1ce2e13f194c1e82a8,1911.11161,0.25,"[0, 2, 3]","[0, 2, 3]",True,True,4,0.2222222222222222,saved_calibration_score_simulation
+50c441a9cc7345a0fa408d1ce2e13f194c1e82a8,1911.11161,0.5,"[0, 2, 3]","[0, 2, 3]",True,True,4,0.2222222222222222,saved_calibration_score_simulation
+50c441a9cc7345a0fa408d1ce2e13f194c1e82a8,1911.11161,1.0,"[0, 2, 3]","[0, 2, 3]",True,True,4,0.2222222222222222,saved_calibration_score_simulation
+13fb28e8b7f34fe600b29fb842deef75608c1478,1603.09381,0.03125,"[25, 3, 2, 9, 22]","[25, 3, 2, 9, 22]",True,True,0,0.0,saved_calibration_score_simulation
+13fb28e8b7f34fe600b29fb842deef75608c1478,1603.09381,0.0625,"[25, 3, 2, 9, 22]","[25, 3, 2, 9, 22]",True,True,0,0.0,saved_calibration_score_simulation
+13fb28e8b7f34fe600b29fb842deef75608c1478,1603.09381,0.125,"[25, 3, 2, 9, 22]","[25, 3, 2, 9, 22]",True,True,0,0.0,saved_calibration_score_simulation
+13fb28e8b7f34fe600b29fb842deef75608c1478,1603.09381,0.25,"[25, 3, 2, 9, 22]","[25, 3, 2, 9, 22]",True,True,0,0.0,saved_calibration_score_simulation
+13fb28e8b7f34fe600b29fb842deef75608c1478,1603.09381,0.5,"[25, 3, 2, 9, 22]","[25, 3, 2, 9, 22]",True,True,0,0.0,saved_calibration_score_simulation
+13fb28e8b7f34fe600b29fb842deef75608c1478,1603.09381,1.0,"[25, 3, 2, 9, 22]","[25, 3, 2, 9, 22]",True,True,2,0.07407407407407407,saved_calibration_score_simulation
+c4a3f270e942803dab9b40e5e871a2e8886ce444,1908.11053,0.03125,"[4, 15, 1, 5]","[4, 15, 1, 5]",True,True,0,0.0,saved_calibration_score_simulation
+c4a3f270e942803dab9b40e5e871a2e8886ce444,1908.11053,0.0625,"[4, 15, 1, 5]","[4, 15, 1, 5]",True,True,0,0.0,saved_calibration_score_simulation
+c4a3f270e942803dab9b40e5e871a2e8886ce444,1908.11053,0.125,"[4, 15, 1, 5]","[4, 15, 1, 5]",True,True,0,0.0,saved_calibration_score_simulation
+c4a3f270e942803dab9b40e5e871a2e8886ce444,1908.11053,0.25,"[4, 15, 1, 5]","[4, 15, 1, 5]",True,True,0,0.0,saved_calibration_score_simulation
+c4a3f270e942803dab9b40e5e871a2e8886ce444,1908.11053,0.5,"[4, 15, 1, 5]","[4, 15, 1, 5]",True,True,4,0.0625,saved_calibration_score_simulation
+c4a3f270e942803dab9b40e5e871a2e8886ce444,1908.11053,1.0,"[4, 15, 1, 5]","[4, 15, 1, 5]",True,True,4,0.0625,saved_calibration_score_simulation
+e42916924b69cab1df25d3b4e6072feaa0ba8084,1810.02229,0.03125,"[1, 0, 18, 15]","[1, 0, 18, 15]",True,True,0,0.0,saved_calibration_score_simulation
+e42916924b69cab1df25d3b4e6072feaa0ba8084,1810.02229,0.0625,"[1, 0, 18, 15]","[1, 0, 18, 15]",True,True,0,0.0,saved_calibration_score_simulation
+e42916924b69cab1df25d3b4e6072feaa0ba8084,1810.02229,0.125,"[1, 0, 18, 15]","[1, 0, 18, 15]",True,True,2,0.07142857142857142,saved_calibration_score_simulation
+e42916924b69cab1df25d3b4e6072feaa0ba8084,1810.02229,0.25,"[1, 0, 18, 15]","[1, 0, 18, 15]",True,True,3,0.10714285714285714,saved_calibration_score_simulation
+e42916924b69cab1df25d3b4e6072feaa0ba8084,1810.02229,0.5,"[1, 0, 18, 15]","[1, 0, 18, 15]",True,True,3,0.10714285714285714,saved_calibration_score_simulation
+e42916924b69cab1df25d3b4e6072feaa0ba8084,1810.02229,1.0,"[1, 0, 18, 15]","[1, 0, 18, 15]",True,True,6,0.21428571428571427,saved_calibration_score_simulation
+1e582319df1739dcd07ba0ba39e8f70187fba049,1709.04005,0.03125,"[0, 13, 11, 7, 10]","[0, 13, 11, 7, 10]",True,True,0,0.0,saved_calibration_score_simulation
+1e582319df1739dcd07ba0ba39e8f70187fba049,1709.04005,0.0625,"[0, 13, 11, 7, 10]","[0, 13, 11, 7, 10]",True,True,2,0.0392156862745098,saved_calibration_score_simulation
+1e582319df1739dcd07ba0ba39e8f70187fba049,1709.04005,0.125,"[0, 13, 11, 7, 10]","[0, 13, 11, 7, 10]",True,True,4,0.0784313725490196,saved_calibration_score_simulation
+1e582319df1739dcd07ba0ba39e8f70187fba049,1709.04005,0.25,"[0, 13, 11, 7, 10]","[0, 13, 11, 7, 10]",True,True,4,0.0784313725490196,saved_calibration_score_simulation
+1e582319df1739dcd07ba0ba39e8f70187fba049,1709.04005,0.5,"[0, 13, 11, 7, 10]","[0, 13, 11, 7, 10]",True,True,4,0.0784313725490196,saved_calibration_score_simulation
+1e582319df1739dcd07ba0ba39e8f70187fba049,1709.04005,1.0,"[0, 13, 11, 7, 10]","[0, 13, 11, 7, 10]",True,True,4,0.0784313725490196,saved_calibration_score_simulation
+04914917d01c9cd8718cd551dc253eb3827915d8,1905.00472,0.03125,"[0, 1]","[0, 1]",True,True,0,0.0,saved_calibration_score_simulation
+04914917d01c9cd8718cd551dc253eb3827915d8,1905.00472,0.0625,"[0, 1]","[0, 1]",True,True,0,0.0,saved_calibration_score_simulation
+04914917d01c9cd8718cd551dc253eb3827915d8,1905.00472,0.125,"[0, 1]","[0, 1]",True,True,0,0.0,saved_calibration_score_simulation
+04914917d01c9cd8718cd551dc253eb3827915d8,1905.00472,0.25,"[0, 1]","[0, 1]",True,True,0,0.0,saved_calibration_score_simulation
+04914917d01c9cd8718cd551dc253eb3827915d8,1905.00472,0.5,"[0, 1]","[0, 1]",True,True,0,0.0,saved_calibration_score_simulation
+04914917d01c9cd8718cd551dc253eb3827915d8,1905.00472,1.0,"[0, 1]","[0, 1]",True,True,2,0.06666666666666667,saved_calibration_score_simulation
+44bf3047ff7e5c6b727b2aaa0805dd66c907dcd6,1911.12237,0.03125,"[10, 3, 8, 20, 24]","[10, 3, 8, 20, 24]",True,True,0,0.0,saved_calibration_score_simulation
+44bf3047ff7e5c6b727b2aaa0805dd66c907dcd6,1911.12237,0.0625,"[10, 3, 8, 20, 24]","[10, 3, 8, 20, 24]",True,True,0,0.0,saved_calibration_score_simulation
+44bf3047ff7e5c6b727b2aaa0805dd66c907dcd6,1911.12237,0.125,"[10, 3, 8, 20, 24]","[10, 3, 8, 20, 24]",True,True,0,0.0,saved_calibration_score_simulation
+44bf3047ff7e5c6b727b2aaa0805dd66c907dcd6,1911.12237,0.25,"[10, 3, 8, 20, 24]","[10, 3, 8, 20, 24]",True,True,2,0.03636363636363636,saved_calibration_score_simulation
+44bf3047ff7e5c6b727b2aaa0805dd66c907dcd6,1911.12237,0.5,"[10, 3, 8, 20, 24]","[10, 3, 8, 20, 24]",True,True,4,0.07272727272727272,saved_calibration_score_simulation
+44bf3047ff7e5c6b727b2aaa0805dd66c907dcd6,1911.12237,1.0,"[10, 3, 8, 20, 24]","[10, 3, 8, 20, 24]",True,True,6,0.10909090909090909,saved_calibration_score_simulation
+d1d59bca40b8b308c0a35fed1b4b7826c85bc9f8,1808.10290,0.03125,"[0, 3, 17, 2, 5]","[0, 3, 17, 2, 5]",True,True,0,0.0,saved_calibration_score_simulation
+d1d59bca40b8b308c0a35fed1b4b7826c85bc9f8,1808.10290,0.0625,"[0, 3, 17, 2, 5]","[0, 3, 17, 2, 5]",True,True,0,0.0,saved_calibration_score_simulation
+d1d59bca40b8b308c0a35fed1b4b7826c85bc9f8,1808.10290,0.125,"[0, 3, 17, 2, 5]","[0, 3, 17, 2, 5]",True,True,0,0.0,saved_calibration_score_simulation
+d1d59bca40b8b308c0a35fed1b4b7826c85bc9f8,1808.10290,0.25,"[0, 3, 17, 2, 5]","[0, 3, 17, 2, 5]",True,True,2,0.05128205128205128,saved_calibration_score_simulation
+d1d59bca40b8b308c0a35fed1b4b7826c85bc9f8,1808.10290,0.5,"[0, 3, 17, 2, 5]","[0, 3, 17, 2, 5]",True,True,4,0.10256410256410256,saved_calibration_score_simulation
+d1d59bca40b8b308c0a35fed1b4b7826c85bc9f8,1808.10290,1.0,"[0, 3, 17, 2, 5]","[0, 3, 17, 2, 5]",True,True,4,0.10256410256410256,saved_calibration_score_simulation
+f3b4e52ba962a0004064132d123fd9b78d9e12e2,1907.12984,0.03125,"[1, 6, 2, 7, 0]","[1, 6, 2, 7, 0]",True,True,2,0.02,saved_calibration_score_simulation
+f3b4e52ba962a0004064132d123fd9b78d9e12e2,1907.12984,0.0625,"[1, 6, 2, 7, 0]","[1, 6, 2, 7, 0]",True,True,3,0.03,saved_calibration_score_simulation
+f3b4e52ba962a0004064132d123fd9b78d9e12e2,1907.12984,0.125,"[1, 6, 2, 7, 0]","[1, 6, 2, 7, 0]",True,True,3,0.03,saved_calibration_score_simulation
+f3b4e52ba962a0004064132d123fd9b78d9e12e2,1907.12984,0.25,"[1, 6, 2, 7, 0]","[1, 6, 2, 7, 0]",True,True,4,0.04,saved_calibration_score_simulation
+f3b4e52ba962a0004064132d123fd9b78d9e12e2,1907.12984,0.5,"[1, 6, 2, 7, 0]","[1, 6, 2, 7, 0]",True,True,4,0.04,saved_calibration_score_simulation
+f3b4e52ba962a0004064132d123fd9b78d9e12e2,1907.12984,1.0,"[1, 6, 2, 7, 0]","[1, 6, 2, 7, 0]",True,True,4,0.04,saved_calibration_score_simulation
+ebe1084a06abdabefffc66f029eeb0b69f114fd9,1810.02268,0.03125,"[5, 14, 38, 2, 31, 0, 42]","[5, 14, 38, 2, 31, 0, 42]",True,True,2,0.028169014084507043,saved_calibration_score_simulation
+ebe1084a06abdabefffc66f029eeb0b69f114fd9,1810.02268,0.0625,"[5, 14, 38, 2, 31, 0, 42]","[5, 14, 38, 2, 31, 0, 42]",True,True,2,0.028169014084507043,saved_calibration_score_simulation
+ebe1084a06abdabefffc66f029eeb0b69f114fd9,1810.02268,0.125,"[5, 14, 38, 2, 31, 0, 42]","[5, 14, 38, 2, 31, 0, 42]",True,True,2,0.028169014084507043,saved_calibration_score_simulation
+ebe1084a06abdabefffc66f029eeb0b69f114fd9,1810.02268,0.25,"[5, 14, 38, 2, 31, 0, 42]","[5, 14, 38, 2, 31, 0, 42]",True,True,4,0.056338028169014086,saved_calibration_score_simulation
+ebe1084a06abdabefffc66f029eeb0b69f114fd9,1810.02268,0.5,"[5, 14, 38, 2, 31, 0, 42]","[5, 14, 38, 2, 31, 0, 42]",True,True,4,0.056338028169014086,saved_calibration_score_simulation
+ebe1084a06abdabefffc66f029eeb0b69f114fd9,1810.02268,1.0,"[5, 14, 38, 2, 31, 0, 42]","[5, 14, 38, 2, 31, 0, 42]",True,True,5,0.07042253521126761,saved_calibration_score_simulation
+283d358606341c399e369f2ba7952cd955326f73,1611.02378,0.03125,"[35, 42, 33, 0]","[35, 42, 33, 0]",True,True,0,0.0,saved_calibration_score_simulation
+283d358606341c399e369f2ba7952cd955326f73,1611.02378,0.0625,"[35, 42, 33, 0]","[35, 42, 33, 0]",True,True,0,0.0,saved_calibration_score_simulation
+283d358606341c399e369f2ba7952cd955326f73,1611.02378,0.125,"[35, 42, 33, 0]","[35, 42, 33, 0]",True,True,0,0.0,saved_calibration_score_simulation
+283d358606341c399e369f2ba7952cd955326f73,1611.02378,0.25,"[35, 42, 33, 0]","[35, 42, 33, 0]",True,True,2,0.038461538461538464,saved_calibration_score_simulation
+283d358606341c399e369f2ba7952cd955326f73,1611.02378,0.5,"[35, 42, 33, 0]","[35, 42, 33, 0]",True,True,5,0.09615384615384616,saved_calibration_score_simulation
+283d358606341c399e369f2ba7952cd955326f73,1611.02378,1.0,"[35, 42, 33, 0]","[35, 42, 33, 0]",True,True,5,0.09615384615384616,saved_calibration_score_simulation
+fae930129c2638ba6f9c9b3383e85aa130a73876,1806.04387,0.03125,"[9, 11, 5, 0]","[9, 11, 5, 0]",True,True,0,0.0,saved_calibration_score_simulation
+fae930129c2638ba6f9c9b3383e85aa130a73876,1806.04387,0.0625,"[9, 11, 5, 0]","[9, 11, 5, 0]",True,True,2,0.041666666666666664,saved_calibration_score_simulation
+fae930129c2638ba6f9c9b3383e85aa130a73876,1806.04387,0.125,"[9, 11, 5, 0]","[9, 11, 5, 0]",True,True,3,0.0625,saved_calibration_score_simulation
+fae930129c2638ba6f9c9b3383e85aa130a73876,1806.04387,0.25,"[9, 11, 5, 0]","[9, 11, 5, 0]",True,True,3,0.0625,saved_calibration_score_simulation
+fae930129c2638ba6f9c9b3383e85aa130a73876,1806.04387,0.5,"[9, 11, 5, 0]","[9, 11, 5, 0]",True,True,3,0.0625,saved_calibration_score_simulation
+fae930129c2638ba6f9c9b3383e85aa130a73876,1806.04387,1.0,"[9, 11, 5, 0]","[9, 11, 5, 0]",True,True,3,0.0625,saved_calibration_score_simulation
+3450723bf66956486de777f141bde5073e4a7694,1906.01076,0.03125,"[0, 12, 8, 11, 5, 10]","[0, 12, 8, 11, 5, 10]",True,True,0,0.0,saved_calibration_score_simulation
+3450723bf66956486de777f141bde5073e4a7694,1906.01076,0.0625,"[0, 12, 8, 11, 5, 10]","[0, 12, 8, 11, 5, 10]",True,True,0,0.0,saved_calibration_score_simulation
+3450723bf66956486de777f141bde5073e4a7694,1906.01076,0.125,"[0, 12, 8, 11, 5, 10]","[0, 12, 8, 11, 5, 10]",True,True,2,0.038461538461538464,saved_calibration_score_simulation
+3450723bf66956486de777f141bde5073e4a7694,1906.01076,0.25,"[0, 12, 8, 11, 5, 10]","[0, 12, 8, 11, 5, 10]",True,True,2,0.038461538461538464,saved_calibration_score_simulation
+3450723bf66956486de777f141bde5073e4a7694,1906.01076,0.5,"[0, 12, 8, 11, 5, 10]","[0, 12, 8, 11, 5, 10]",True,True,2,0.038461538461538464,saved_calibration_score_simulation
+3450723bf66956486de777f141bde5073e4a7694,1906.01076,1.0,"[0, 12, 8, 11, 5, 10]","[0, 12, 8, 11, 5, 10]",True,True,3,0.057692307692307696,saved_calibration_score_simulation
+bd817a520a62ddd77e65e74e5a7e9006cdfb19b3,1809.00129,0.03125,"[0, 1, 11, 10, 9, 15, 3, 26, 5]","[0, 1, 11, 10, 9, 15, 3, 26, 5]",True,True,0,0.0,saved_calibration_score_simulation
+bd817a520a62ddd77e65e74e5a7e9006cdfb19b3,1809.00129,0.0625,"[0, 1, 11, 10, 9, 15, 3, 26, 5]","[0, 1, 11, 10, 9, 15, 3, 26, 5]",True,True,0,0.0,saved_calibration_score_simulation
+bd817a520a62ddd77e65e74e5a7e9006cdfb19b3,1809.00129,0.125,"[0, 1, 11, 10, 9, 15, 3, 26, 5]","[0, 1, 11, 10, 9, 15, 3, 26, 5]",True,True,0,0.0,saved_calibration_score_simulation
+bd817a520a62ddd77e65e74e5a7e9006cdfb19b3,1809.00129,0.25,"[0, 1, 11, 10, 9, 15, 3, 26, 5]","[0, 1, 11, 10, 9, 15, 3, 26, 5]",True,True,3,0.09375,saved_calibration_score_simulation
+bd817a520a62ddd77e65e74e5a7e9006cdfb19b3,1809.00129,0.5,"[0, 1, 11, 10, 9, 15, 3, 26, 5]","[0, 1, 11, 10, 9, 15, 3, 26, 5]",True,True,8,0.25,saved_calibration_score_simulation
+bd817a520a62ddd77e65e74e5a7e9006cdfb19b3,1809.00129,1.0,"[0, 1, 11, 10, 9, 15, 3, 26, 5]","[0, 1, 11, 10, 9, 15, 3, 26, 5]",True,True,8,0.25,saved_calibration_score_simulation
+f94cea545f745994800c1fb4654d64d1384f2c26,2003.08769,0.03125,"[0, 31, 22, 16, 1, 26]","[0, 31, 22, 16, 1, 26]",True,True,0,0.0,saved_calibration_score_simulation
+f94cea545f745994800c1fb4654d64d1384f2c26,2003.08769,0.0625,"[0, 31, 22, 16, 1, 26]","[0, 31, 22, 16, 1, 26]",True,True,0,0.0,saved_calibration_score_simulation
+f94cea545f745994800c1fb4654d64d1384f2c26,2003.08769,0.125,"[0, 31, 22, 16, 1, 26]","[0, 31, 22, 16, 1, 26]",True,True,2,0.0625,saved_calibration_score_simulation
+f94cea545f745994800c1fb4654d64d1384f2c26,2003.08769,0.25,"[0, 31, 22, 16, 1, 26]","[0, 31, 22, 16, 1, 26]",True,True,5,0.15625,saved_calibration_score_simulation
+f94cea545f745994800c1fb4654d64d1384f2c26,2003.08769,0.5,"[0, 31, 22, 16, 1, 26]","[0, 31, 22, 16, 1, 26]",True,True,5,0.15625,saved_calibration_score_simulation
+f94cea545f745994800c1fb4654d64d1384f2c26,2003.08769,1.0,"[0, 31, 22, 16, 1, 26]","[0, 31, 22, 16, 1, 26]",True,True,5,0.15625,saved_calibration_score_simulation
+065623cc1d5f5b19ec1f84d286522fc2f805c6ce,1706.04206,0.03125,"[0, 3, 5, 1, 33]","[0, 3, 5, 1, 33]",True,True,0,0.0,saved_calibration_score_simulation
+065623cc1d5f5b19ec1f84d286522fc2f805c6ce,1706.04206,0.0625,"[0, 3, 5, 1, 33]","[0, 3, 5, 1, 33]",True,True,0,0.0,saved_calibration_score_simulation
+065623cc1d5f5b19ec1f84d286522fc2f805c6ce,1706.04206,0.125,"[0, 3, 5, 1, 33]","[0, 3, 5, 1, 33]",True,True,0,0.0,saved_calibration_score_simulation
+065623cc1d5f5b19ec1f84d286522fc2f805c6ce,1706.04206,0.25,"[0, 3, 5, 1, 33]","[0, 3, 5, 1, 33]",True,True,0,0.0,saved_calibration_score_simulation
+065623cc1d5f5b19ec1f84d286522fc2f805c6ce,1706.04206,0.5,"[0, 3, 5, 1, 33]","[0, 3, 5, 1, 33]",True,True,0,0.0,saved_calibration_score_simulation
+065623cc1d5f5b19ec1f84d286522fc2f805c6ce,1706.04206,1.0,"[0, 3, 5, 1, 33]","[0, 3, 5, 1, 33]",True,True,2,0.058823529411764705,saved_calibration_score_simulation
+240058371e91c6b9509c0398cbe900855b46c328,1901.09381,0.03125,"[3, 0, 1, 2, 6]","[3, 0, 1, 2, 6]",True,True,0,0.0,saved_calibration_score_simulation
+240058371e91c6b9509c0398cbe900855b46c328,1901.09381,0.0625,"[3, 0, 1, 2, 6]","[3, 0, 1, 2, 6]",True,True,0,0.0,saved_calibration_score_simulation
+240058371e91c6b9509c0398cbe900855b46c328,1901.09381,0.125,"[3, 0, 1, 2, 6]","[3, 0, 1, 2, 6]",True,True,0,0.0,saved_calibration_score_simulation
+240058371e91c6b9509c0398cbe900855b46c328,1901.09381,0.25,"[3, 0, 1, 2, 6]","[3, 0, 1, 2, 6]",True,True,0,0.0,saved_calibration_score_simulation
+240058371e91c6b9509c0398cbe900855b46c328,1901.09381,0.5,"[3, 0, 1, 2, 6]","[3, 0, 1, 2, 6]",True,True,0,0.0,saved_calibration_score_simulation
+240058371e91c6b9509c0398cbe900855b46c328,1901.09381,1.0,"[3, 0, 1, 2, 6]","[3, 0, 1, 2, 6]",True,True,2,0.08,saved_calibration_score_simulation
+16a10c1681dc5a399b6d34b4eed7bb1fef816dd0,1910.02001,0.03125,"[7, 9, 0, 4]","[7, 9, 0, 4]",True,True,0,0.0,saved_calibration_score_simulation
+16a10c1681dc5a399b6d34b4eed7bb1fef816dd0,1910.02001,0.0625,"[7, 9, 0, 4]","[7, 9, 0, 4]",True,True,0,0.0,saved_calibration_score_simulation
+16a10c1681dc5a399b6d34b4eed7bb1fef816dd0,1910.02001,0.125,"[7, 9, 0, 4]","[7, 9, 0, 4]",True,True,0,0.0,saved_calibration_score_simulation
+16a10c1681dc5a399b6d34b4eed7bb1fef816dd0,1910.02001,0.25,"[7, 9, 0, 4]","[7, 9, 0, 4]",True,True,2,0.024390243902439025,saved_calibration_score_simulation
+16a10c1681dc5a399b6d34b4eed7bb1fef816dd0,1910.02001,0.5,"[7, 9, 0, 4]","[7, 9, 0, 4]",True,True,3,0.036585365853658534,saved_calibration_score_simulation
+16a10c1681dc5a399b6d34b4eed7bb1fef816dd0,1910.02001,1.0,"[7, 9, 0, 4]","[7, 9, 0, 4]",True,True,3,0.036585365853658534,saved_calibration_score_simulation
+54002c15493d4082d352a66fb9465d65bfe9ddca,1911.03977,0.03125,"[0, 3, 4, 7]","[0, 3, 4, 7]",True,True,0,0.0,saved_calibration_score_simulation
+54002c15493d4082d352a66fb9465d65bfe9ddca,1911.03977,0.0625,"[0, 3, 4, 7]","[0, 3, 4, 7]",True,True,0,0.0,saved_calibration_score_simulation
+54002c15493d4082d352a66fb9465d65bfe9ddca,1911.03977,0.125,"[0, 3, 4, 7]","[0, 3, 4, 7]",True,True,0,0.0,saved_calibration_score_simulation
+54002c15493d4082d352a66fb9465d65bfe9ddca,1911.03977,0.25,"[0, 3, 4, 7]","[0, 3, 4, 7]",True,True,4,0.056338028169014086,saved_calibration_score_simulation
+54002c15493d4082d352a66fb9465d65bfe9ddca,1911.03977,0.5,"[0, 3, 4, 7]","[0, 3, 4, 7]",True,True,4,0.056338028169014086,saved_calibration_score_simulation
+54002c15493d4082d352a66fb9465d65bfe9ddca,1911.03977,1.0,"[0, 3, 4, 7]","[0, 3, 4, 7]",True,True,4,0.056338028169014086,saved_calibration_score_simulation
+fe1a74449847755cd7a46647cc9d384abfee789e,1901.03253,0.03125,"[4, 58, 3, 66, 31]","[4, 58, 3, 66, 31]",True,True,0,0.0,saved_calibration_score_simulation
+fe1a74449847755cd7a46647cc9d384abfee789e,1901.03253,0.0625,"[4, 58, 3, 66, 31]","[4, 58, 3, 66, 31]",True,True,0,0.0,saved_calibration_score_simulation
+fe1a74449847755cd7a46647cc9d384abfee789e,1901.03253,0.125,"[4, 58, 3, 66, 31]","[4, 58, 3, 66, 31]",True,True,0,0.0,saved_calibration_score_simulation
+fe1a74449847755cd7a46647cc9d384abfee789e,1901.03253,0.25,"[4, 58, 3, 66, 31]","[4, 58, 3, 66, 31]",True,True,3,0.04411764705882353,saved_calibration_score_simulation
+fe1a74449847755cd7a46647cc9d384abfee789e,1901.03253,0.5,"[4, 58, 3, 66, 31]","[4, 58, 3, 66, 31]",True,True,3,0.04411764705882353,saved_calibration_score_simulation
+fe1a74449847755cd7a46647cc9d384abfee789e,1901.03253,1.0,"[4, 58, 3, 66, 31]","[4, 58, 3, 66, 31]",True,True,4,0.058823529411764705,saved_calibration_score_simulation
+d5c393df758dec6ea6827ae5b887eb6c303a4f4d,1612.05202,0.03125,"[2, 1, 13, 14, 11, 26]","[2, 1, 13, 14, 11, 26]",True,True,0,0.0,saved_calibration_score_simulation
+d5c393df758dec6ea6827ae5b887eb6c303a4f4d,1612.05202,0.0625,"[2, 1, 13, 14, 11, 26]","[2, 1, 13, 14, 11, 26]",True,True,0,0.0,saved_calibration_score_simulation
+d5c393df758dec6ea6827ae5b887eb6c303a4f4d,1612.05202,0.125,"[2, 1, 13, 14, 11, 26]","[2, 1, 13, 14, 11, 26]",True,True,0,0.0,saved_calibration_score_simulation
+d5c393df758dec6ea6827ae5b887eb6c303a4f4d,1612.05202,0.25,"[2, 1, 13, 14, 11, 26]","[2, 1, 13, 14, 11, 26]",True,True,2,0.046511627906976744,saved_calibration_score_simulation
+d5c393df758dec6ea6827ae5b887eb6c303a4f4d,1612.05202,0.5,"[2, 1, 13, 14, 11, 26]","[2, 1, 13, 14, 11, 26]",True,True,5,0.11627906976744186,saved_calibration_score_simulation
+d5c393df758dec6ea6827ae5b887eb6c303a4f4d,1612.05202,1.0,"[2, 1, 13, 14, 11, 26]","[2, 1, 13, 14, 11, 26]",True,True,6,0.13953488372093023,saved_calibration_score_simulation
+552b1c813f25bf39ace6cd5eefa56f4e4dd70c84,1911.03854,0.03125,"[0, 13, 15, 14, 1, 6]","[0, 13, 15, 14, 1, 6]",True,True,0,0.0,saved_calibration_score_simulation
+552b1c813f25bf39ace6cd5eefa56f4e4dd70c84,1911.03854,0.0625,"[0, 13, 15, 14, 1, 6]","[0, 13, 15, 14, 1, 6]",True,True,0,0.0,saved_calibration_score_simulation
+552b1c813f25bf39ace6cd5eefa56f4e4dd70c84,1911.03854,0.125,"[0, 13, 15, 14, 1, 6]","[0, 13, 15, 14, 1, 6]",True,True,2,0.07692307692307693,saved_calibration_score_simulation
+552b1c813f25bf39ace6cd5eefa56f4e4dd70c84,1911.03854,0.25,"[0, 13, 15, 14, 1, 6]","[0, 13, 15, 14, 1, 6]",True,True,4,0.15384615384615385,saved_calibration_score_simulation
+552b1c813f25bf39ace6cd5eefa56f4e4dd70c84,1911.03854,0.5,"[0, 13, 15, 14, 1, 6]","[0, 13, 15, 14, 1, 6]",True,True,4,0.15384615384615385,saved_calibration_score_simulation
+552b1c813f25bf39ace6cd5eefa56f4e4dd70c84,1911.03854,1.0,"[0, 13, 15, 14, 1, 6]","[0, 13, 15, 14, 1, 6]",True,True,6,0.23076923076923078,saved_calibration_score_simulation
+7239c02a0dcc0c3c9d9cddb5e895bcf9cfcefee6,1602.03483,0.03125,"[18, 12, 1]","[18, 12, 1]",True,True,0,0.0,saved_calibration_score_simulation
+7239c02a0dcc0c3c9d9cddb5e895bcf9cfcefee6,1602.03483,0.0625,"[18, 12, 1]","[18, 12, 1]",True,True,0,0.0,saved_calibration_score_simulation
+7239c02a0dcc0c3c9d9cddb5e895bcf9cfcefee6,1602.03483,0.125,"[18, 12, 1]","[18, 12, 1]",True,True,2,0.046511627906976744,saved_calibration_score_simulation
+7239c02a0dcc0c3c9d9cddb5e895bcf9cfcefee6,1602.03483,0.25,"[18, 12, 1]","[18, 12, 1]",True,True,2,0.046511627906976744,saved_calibration_score_simulation
+7239c02a0dcc0c3c9d9cddb5e895bcf9cfcefee6,1602.03483,0.5,"[18, 12, 1]","[18, 12, 1]",True,True,4,0.09302325581395349,saved_calibration_score_simulation
+7239c02a0dcc0c3c9d9cddb5e895bcf9cfcefee6,1602.03483,1.0,"[18, 12, 1]","[18, 12, 1]",True,True,4,0.09302325581395349,saved_calibration_score_simulation
+9be9354eeb2bb1827eeb1e23a20cfdca59fb349a,2002.03056,0.03125,"[0, 2, 8, 1, 63]","[0, 2, 8, 1, 63]",True,True,0,0.0,saved_calibration_score_simulation
+9be9354eeb2bb1827eeb1e23a20cfdca59fb349a,2002.03056,0.0625,"[0, 2, 8, 1, 63]","[0, 2, 8, 1, 63]",True,True,0,0.0,saved_calibration_score_simulation
+9be9354eeb2bb1827eeb1e23a20cfdca59fb349a,2002.03056,0.125,"[0, 2, 8, 1, 63]","[0, 2, 8, 1, 63]",True,True,0,0.0,saved_calibration_score_simulation
+9be9354eeb2bb1827eeb1e23a20cfdca59fb349a,2002.03056,0.25,"[0, 2, 8, 1, 63]","[0, 2, 8, 1, 63]",True,True,0,0.0,saved_calibration_score_simulation
+9be9354eeb2bb1827eeb1e23a20cfdca59fb349a,2002.03056,0.5,"[0, 2, 8, 1, 63]","[0, 2, 8, 1, 63]",True,True,2,0.03076923076923077,saved_calibration_score_simulation
+9be9354eeb2bb1827eeb1e23a20cfdca59fb349a,2002.03056,1.0,"[0, 2, 8, 1, 63]","[0, 2, 8, 1, 63]",True,True,5,0.07692307692307693,saved_calibration_score_simulation
+919681faa9731057b3fae5052b7da598abd3e04b,2004.04498,0.03125,"[0, 16, 74, 12, 73, 2]","[0, 16, 74, 12, 73, 2]",True,True,3,0.03225806451612903,saved_calibration_score_simulation
+919681faa9731057b3fae5052b7da598abd3e04b,2004.04498,0.0625,"[0, 16, 74, 12, 73, 2]","[0, 16, 74, 12, 73, 2]",True,True,3,0.03225806451612903,saved_calibration_score_simulation
+919681faa9731057b3fae5052b7da598abd3e04b,2004.04498,0.125,"[0, 16, 74, 12, 73, 2]","[0, 16, 74, 12, 73, 2]",True,True,6,0.06451612903225806,saved_calibration_score_simulation
+919681faa9731057b3fae5052b7da598abd3e04b,2004.04498,0.25,"[0, 16, 74, 12, 73, 2]","[0, 16, 74, 12, 73, 2]",True,True,6,0.06451612903225806,saved_calibration_score_simulation
+919681faa9731057b3fae5052b7da598abd3e04b,2004.04498,0.5,"[0, 16, 74, 12, 73, 2]","[0, 16, 74, 12, 73, 2]",True,True,7,0.07526881720430108,saved_calibration_score_simulation
+919681faa9731057b3fae5052b7da598abd3e04b,2004.04498,1.0,"[0, 16, 74, 12, 73, 2]","[0, 16, 74, 12, 73, 2]",True,True,7,0.07526881720430108,saved_calibration_score_simulation
+2a9c7243744b42f1e9fed9ff2ab17c6f156b1ba4,1804.05306,0.03125,"[1, 7, 15]","[1, 7, 15]",True,True,0,0.0,saved_calibration_score_simulation
+2a9c7243744b42f1e9fed9ff2ab17c6f156b1ba4,1804.05306,0.0625,"[1, 7, 15]","[1, 7, 15]",True,True,0,0.0,saved_calibration_score_simulation
+2a9c7243744b42f1e9fed9ff2ab17c6f156b1ba4,1804.05306,0.125,"[1, 7, 15]","[1, 7, 15]",True,True,0,0.0,saved_calibration_score_simulation
+2a9c7243744b42f1e9fed9ff2ab17c6f156b1ba4,1804.05306,0.25,"[1, 7, 15]","[1, 7, 15]",True,True,0,0.0,saved_calibration_score_simulation
+2a9c7243744b42f1e9fed9ff2ab17c6f156b1ba4,1804.05306,0.5,"[1, 7, 15]","[1, 7, 15]",True,True,0,0.0,saved_calibration_score_simulation
+2a9c7243744b42f1e9fed9ff2ab17c6f156b1ba4,1804.05306,1.0,"[1, 7, 15]","[1, 7, 15]",True,True,0,0.0,saved_calibration_score_simulation
+7c2d6bc913523d77e8fdc82c60598ee95b445d84,1911.09709,0.03125,"[6, 21, 13, 4, 9, 15]","[6, 21, 13, 4, 9, 15]",True,True,0,0.0,saved_calibration_score_simulation
+7c2d6bc913523d77e8fdc82c60598ee95b445d84,1911.09709,0.0625,"[6, 21, 13, 4, 9, 15]","[6, 21, 13, 4, 9, 15]",True,True,0,0.0,saved_calibration_score_simulation
+7c2d6bc913523d77e8fdc82c60598ee95b445d84,1911.09709,0.125,"[6, 21, 13, 4, 9, 15]","[6, 21, 13, 4, 9, 15]",True,True,2,0.02531645569620253,saved_calibration_score_simulation
+7c2d6bc913523d77e8fdc82c60598ee95b445d84,1911.09709,0.25,"[6, 21, 13, 4, 9, 15]","[6, 21, 13, 4, 9, 15]",True,True,2,0.02531645569620253,saved_calibration_score_simulation
+7c2d6bc913523d77e8fdc82c60598ee95b445d84,1911.09709,0.5,"[6, 21, 13, 4, 9, 15]","[6, 21, 13, 4, 9, 15]",True,True,3,0.0379746835443038,saved_calibration_score_simulation
+7c2d6bc913523d77e8fdc82c60598ee95b445d84,1911.09709,1.0,"[6, 21, 13, 4, 9, 15]","[6, 21, 13, 4, 9, 15]",True,True,4,0.05063291139240506,saved_calibration_score_simulation
+13eb64957478ade79a1e81d32e36ee319209c19a,1910.10762,0.03125,"[2, 22, 21]","[2, 22, 21]",True,True,0,0.0,saved_calibration_score_simulation
+13eb64957478ade79a1e81d32e36ee319209c19a,1910.10762,0.0625,"[2, 22, 21]","[2, 22, 21]",True,True,0,0.0,saved_calibration_score_simulation
+13eb64957478ade79a1e81d32e36ee319209c19a,1910.10762,0.125,"[2, 22, 21]","[2, 22, 21]",True,True,0,0.0,saved_calibration_score_simulation
+13eb64957478ade79a1e81d32e36ee319209c19a,1910.10762,0.25,"[2, 22, 21]","[2, 22, 21]",True,True,0,0.0,saved_calibration_score_simulation
+13eb64957478ade79a1e81d32e36ee319209c19a,1910.10762,0.5,"[2, 22, 21]","[2, 22, 21]",True,True,4,0.11764705882352941,saved_calibration_score_simulation
+13eb64957478ade79a1e81d32e36ee319209c19a,1910.10762,1.0,"[2, 22, 21]","[2, 22, 21]",True,True,4,0.11764705882352941,saved_calibration_score_simulation
+5d790459b05c5a3e6f1e698824444e55fc11890c,1911.01770,0.03125,"[0, 1, 3]","[0, 1, 3]",True,True,0,0.0,saved_calibration_score_simulation
+5d790459b05c5a3e6f1e698824444e55fc11890c,1911.01770,0.0625,"[0, 1, 3]","[0, 1, 3]",True,True,0,0.0,saved_calibration_score_simulation
+5d790459b05c5a3e6f1e698824444e55fc11890c,1911.01770,0.125,"[0, 1, 3]","[0, 1, 3]",True,True,2,0.07692307692307693,saved_calibration_score_simulation
+5d790459b05c5a3e6f1e698824444e55fc11890c,1911.01770,0.25,"[0, 1, 3]","[0, 1, 3]",True,True,2,0.07692307692307693,saved_calibration_score_simulation
+5d790459b05c5a3e6f1e698824444e55fc11890c,1911.01770,0.5,"[0, 1, 3]","[0, 1, 3]",True,True,2,0.07692307692307693,saved_calibration_score_simulation
+5d790459b05c5a3e6f1e698824444e55fc11890c,1911.01770,1.0,"[0, 1, 3]","[0, 1, 3]",True,True,2,0.07692307692307693,saved_calibration_score_simulation
+fac273ecb3e72f2dc94cdbc797582d7225a8e070,1703.05320,0.03125,"[0, 1, 7]","[0, 1, 7]",True,True,0,0.0,saved_calibration_score_simulation
+fac273ecb3e72f2dc94cdbc797582d7225a8e070,1703.05320,0.0625,"[0, 1, 7]","[0, 1, 7]",True,True,0,0.0,saved_calibration_score_simulation
+fac273ecb3e72f2dc94cdbc797582d7225a8e070,1703.05320,0.125,"[0, 1, 7]","[0, 1, 7]",True,True,0,0.0,saved_calibration_score_simulation
+fac273ecb3e72f2dc94cdbc797582d7225a8e070,1703.05320,0.25,"[0, 1, 7]","[0, 1, 7]",True,True,0,0.0,saved_calibration_score_simulation
+fac273ecb3e72f2dc94cdbc797582d7225a8e070,1703.05320,0.5,"[0, 1, 7]","[0, 1, 7]",True,True,2,0.03333333333333333,saved_calibration_score_simulation
+fac273ecb3e72f2dc94cdbc797582d7225a8e070,1703.05320,1.0,"[0, 1, 7]","[0, 1, 7]",True,True,4,0.06666666666666667,saved_calibration_score_simulation
+200c37060d037dee33f3b7c8b1a2aaa58376566e,1903.04329,0.03125,"[0, 2]","[0, 2]",True,True,0,0.0,saved_calibration_score_simulation
+200c37060d037dee33f3b7c8b1a2aaa58376566e,1903.04329,0.0625,"[0, 2]","[0, 2]",True,True,0,0.0,saved_calibration_score_simulation
+200c37060d037dee33f3b7c8b1a2aaa58376566e,1903.04329,0.125,"[0, 2]","[0, 2]",True,True,0,0.0,saved_calibration_score_simulation
+200c37060d037dee33f3b7c8b1a2aaa58376566e,1903.04329,0.25,"[0, 2]","[0, 2]",True,True,0,0.0,saved_calibration_score_simulation
+200c37060d037dee33f3b7c8b1a2aaa58376566e,1903.04329,0.5,"[0, 2]","[0, 2]",True,True,0,0.0,saved_calibration_score_simulation
+200c37060d037dee33f3b7c8b1a2aaa58376566e,1903.04329,1.0,"[0, 2]","[0, 2]",True,True,0,0.0,saved_calibration_score_simulation
+0f9678e11079ee9ea1a1ce693f017177dd495ee5,1706.08568,0.03125,"[4, 1, 0, 12, 22]","[4, 1, 0, 12, 22]",True,True,0,0.0,saved_calibration_score_simulation
+0f9678e11079ee9ea1a1ce693f017177dd495ee5,1706.08568,0.0625,"[4, 1, 0, 12, 22]","[4, 1, 0, 12, 22]",True,True,0,0.0,saved_calibration_score_simulation
+0f9678e11079ee9ea1a1ce693f017177dd495ee5,1706.08568,0.125,"[4, 1, 0, 12, 22]","[4, 1, 0, 12, 22]",True,True,2,0.06896551724137931,saved_calibration_score_simulation
+0f9678e11079ee9ea1a1ce693f017177dd495ee5,1706.08568,0.25,"[4, 1, 0, 12, 22]","[4, 1, 0, 12, 22]",True,True,2,0.06896551724137931,saved_calibration_score_simulation
+0f9678e11079ee9ea1a1ce693f017177dd495ee5,1706.08568,0.5,"[4, 1, 0, 12, 22]","[4, 1, 0, 12, 22]",True,True,2,0.06896551724137931,saved_calibration_score_simulation
+0f9678e11079ee9ea1a1ce693f017177dd495ee5,1706.08568,1.0,"[4, 1, 0, 12, 22]","[4, 1, 0, 12, 22]",True,True,4,0.13793103448275862,saved_calibration_score_simulation
+371433bd3fb5042bacec4dfad3cfff66147c14f0,1909.04387,0.03125,"[1, 3, 7, 8]","[1, 3, 7, 8]",True,True,0,0.0,saved_calibration_score_simulation
+371433bd3fb5042bacec4dfad3cfff66147c14f0,1909.04387,0.0625,"[1, 3, 7, 8]","[1, 3, 7, 8]",True,True,0,0.0,saved_calibration_score_simulation
+371433bd3fb5042bacec4dfad3cfff66147c14f0,1909.04387,0.125,"[1, 3, 7, 8]","[1, 3, 7, 8]",True,True,0,0.0,saved_calibration_score_simulation
+371433bd3fb5042bacec4dfad3cfff66147c14f0,1909.04387,0.25,"[1, 3, 7, 8]","[1, 3, 7, 8]",True,True,0,0.0,saved_calibration_score_simulation
+371433bd3fb5042bacec4dfad3cfff66147c14f0,1909.04387,0.5,"[1, 3, 7, 8]","[1, 3, 7, 8]",True,True,0,0.0,saved_calibration_score_simulation
+371433bd3fb5042bacec4dfad3cfff66147c14f0,1909.04387,1.0,"[1, 3, 7, 8]","[1, 3, 7, 8]",True,True,0,0.0,saved_calibration_score_simulation
+8b1af67e3905244653b4cf66ba0acec8d6bff81f,1704.08390,0.03125,"[25, 0, 4, 3, 14]","[25, 0, 4, 3, 14]",True,True,2,0.06896551724137931,saved_calibration_score_simulation
+8b1af67e3905244653b4cf66ba0acec8d6bff81f,1704.08390,0.0625,"[25, 0, 4, 3, 14]","[25, 0, 4, 3, 14]",True,True,3,0.10344827586206896,saved_calibration_score_simulation
+8b1af67e3905244653b4cf66ba0acec8d6bff81f,1704.08390,0.125,"[25, 0, 4, 3, 14]","[25, 0, 4, 3, 14]",True,True,3,0.10344827586206896,saved_calibration_score_simulation
+8b1af67e3905244653b4cf66ba0acec8d6bff81f,1704.08390,0.25,"[25, 0, 4, 3, 14]","[25, 0, 4, 3, 14]",True,True,6,0.20689655172413793,saved_calibration_score_simulation
+8b1af67e3905244653b4cf66ba0acec8d6bff81f,1704.08390,0.5,"[25, 0, 4, 3, 14]","[25, 0, 4, 3, 14]",True,True,6,0.20689655172413793,saved_calibration_score_simulation
+8b1af67e3905244653b4cf66ba0acec8d6bff81f,1704.08390,1.0,"[25, 0, 4, 3, 14]","[25, 0, 4, 3, 14]",True,True,6,0.20689655172413793,saved_calibration_score_simulation
+74396ead9f88a9efc7626240ce128582ab69ef2b,1806.03369,0.03125,"[2, 6, 12]","[2, 6, 12]",True,True,0,0.0,saved_calibration_score_simulation
+74396ead9f88a9efc7626240ce128582ab69ef2b,1806.03369,0.0625,"[2, 6, 12]","[2, 6, 12]",True,True,0,0.0,saved_calibration_score_simulation
+74396ead9f88a9efc7626240ce128582ab69ef2b,1806.03369,0.125,"[2, 6, 12]","[2, 6, 12]",True,True,0,0.0,saved_calibration_score_simulation
+74396ead9f88a9efc7626240ce128582ab69ef2b,1806.03369,0.25,"[2, 6, 12]","[2, 6, 12]",True,True,0,0.0,saved_calibration_score_simulation
+74396ead9f88a9efc7626240ce128582ab69ef2b,1806.03369,0.5,"[2, 6, 12]","[2, 6, 12]",True,True,0,0.0,saved_calibration_score_simulation
+74396ead9f88a9efc7626240ce128582ab69ef2b,1806.03369,1.0,"[2, 6, 12]","[2, 6, 12]",True,True,0,0.0,saved_calibration_score_simulation
+627ce8a1db08a732d5a8f7e1f8a72e3de89847e6,1911.09247,0.03125,"[2, 5, 1, 52]","[2, 5, 1, 52]",True,True,0,0.0,saved_calibration_score_simulation
+627ce8a1db08a732d5a8f7e1f8a72e3de89847e6,1911.09247,0.0625,"[2, 5, 1, 52]","[2, 5, 1, 52]",True,True,2,0.029411764705882353,saved_calibration_score_simulation
+627ce8a1db08a732d5a8f7e1f8a72e3de89847e6,1911.09247,0.125,"[2, 5, 1, 52]","[2, 5, 1, 52]",True,True,2,0.029411764705882353,saved_calibration_score_simulation
+627ce8a1db08a732d5a8f7e1f8a72e3de89847e6,1911.09247,0.25,"[2, 5, 1, 52]","[2, 5, 1, 52]",True,True,4,0.058823529411764705,saved_calibration_score_simulation
+627ce8a1db08a732d5a8f7e1f8a72e3de89847e6,1911.09247,0.5,"[2, 5, 1, 52]","[2, 5, 1, 52]",True,True,4,0.058823529411764705,saved_calibration_score_simulation
+627ce8a1db08a732d5a8f7e1f8a72e3de89847e6,1911.09247,1.0,"[2, 5, 1, 52]","[2, 5, 1, 52]",True,True,5,0.07352941176470588,saved_calibration_score_simulation
+d576af4321fe71ced9e521df1f3fe1eb90d2df2d,2002.10210,0.03125,"[2, 3, 7]","[2, 3, 7]",True,True,0,0.0,saved_calibration_score_simulation
+d576af4321fe71ced9e521df1f3fe1eb90d2df2d,2002.10210,0.0625,"[2, 3, 7]","[2, 3, 7]",True,True,0,0.0,saved_calibration_score_simulation
+d576af4321fe71ced9e521df1f3fe1eb90d2df2d,2002.10210,0.125,"[2, 3, 7]","[2, 3, 7]",True,True,2,0.04,saved_calibration_score_simulation
+d576af4321fe71ced9e521df1f3fe1eb90d2df2d,2002.10210,0.25,"[2, 3, 7]","[2, 3, 7]",True,True,2,0.04,saved_calibration_score_simulation
+d576af4321fe71ced9e521df1f3fe1eb90d2df2d,2002.10210,0.5,"[2, 3, 7]","[2, 3, 7]",True,True,2,0.04,saved_calibration_score_simulation
+d576af4321fe71ced9e521df1f3fe1eb90d2df2d,2002.10210,1.0,"[2, 3, 7]","[2, 3, 7]",True,True,2,0.04,saved_calibration_score_simulation
+bcf222ad4bb537b01019ed354ea03cd6bf2c1f8e,1905.07562,0.03125,"[4, 3, 8]","[4, 3, 8]",True,True,0,0.0,saved_calibration_score_simulation
+bcf222ad4bb537b01019ed354ea03cd6bf2c1f8e,1905.07562,0.0625,"[4, 3, 8]","[4, 3, 8]",True,True,0,0.0,saved_calibration_score_simulation
+bcf222ad4bb537b01019ed354ea03cd6bf2c1f8e,1905.07562,0.125,"[4, 3, 8]","[4, 3, 8]",True,True,0,0.0,saved_calibration_score_simulation
+bcf222ad4bb537b01019ed354ea03cd6bf2c1f8e,1905.07562,0.25,"[4, 3, 8]","[4, 3, 8]",True,True,0,0.0,saved_calibration_score_simulation
+bcf222ad4bb537b01019ed354ea03cd6bf2c1f8e,1905.07562,0.5,"[4, 3, 8]","[4, 3, 8]",True,True,2,0.04,saved_calibration_score_simulation
+bcf222ad4bb537b01019ed354ea03cd6bf2c1f8e,1905.07562,1.0,"[4, 3, 8]","[4, 3, 8]",True,True,2,0.04,saved_calibration_score_simulation
+e0b8a2649e384bbdb17472f8da2c3df4134b1e57,1707.07568,0.03125,"[0, 1, 2, 3, 5]","[0, 1, 2, 3, 5]",True,True,0,0.0,saved_calibration_score_simulation
+e0b8a2649e384bbdb17472f8da2c3df4134b1e57,1707.07568,0.0625,"[0, 1, 2, 3, 5]","[0, 1, 2, 3, 5]",True,True,2,0.05263157894736842,saved_calibration_score_simulation
+e0b8a2649e384bbdb17472f8da2c3df4134b1e57,1707.07568,0.125,"[0, 1, 2, 3, 5]","[0, 1, 2, 3, 5]",True,True,2,0.05263157894736842,saved_calibration_score_simulation
+e0b8a2649e384bbdb17472f8da2c3df4134b1e57,1707.07568,0.25,"[0, 1, 2, 3, 5]","[0, 1, 2, 3, 5]",True,True,2,0.05263157894736842,saved_calibration_score_simulation
+e0b8a2649e384bbdb17472f8da2c3df4134b1e57,1707.07568,0.5,"[0, 1, 2, 3, 5]","[0, 1, 2, 3, 5]",True,True,2,0.05263157894736842,saved_calibration_score_simulation
+e0b8a2649e384bbdb17472f8da2c3df4134b1e57,1707.07568,1.0,"[0, 1, 2, 3, 5]","[0, 1, 2, 3, 5]",True,True,3,0.07894736842105263,saved_calibration_score_simulation
+475e698a801be0ad9e4f74756d1fff4fe0728009,1805.11598,0.03125,"[12, 13, 2]","[12, 13, 2]",True,True,0,0.0,saved_calibration_score_simulation
+475e698a801be0ad9e4f74756d1fff4fe0728009,1805.11598,0.0625,"[12, 13, 2]","[12, 13, 2]",True,True,0,0.0,saved_calibration_score_simulation
+475e698a801be0ad9e4f74756d1fff4fe0728009,1805.11598,0.125,"[12, 13, 2]","[12, 13, 2]",True,True,0,0.0,saved_calibration_score_simulation
+475e698a801be0ad9e4f74756d1fff4fe0728009,1805.11598,0.25,"[12, 13, 2]","[12, 13, 2]",True,True,0,0.0,saved_calibration_score_simulation
+475e698a801be0ad9e4f74756d1fff4fe0728009,1805.11598,0.5,"[12, 13, 2]","[12, 13, 2]",True,True,4,0.16666666666666666,saved_calibration_score_simulation
+475e698a801be0ad9e4f74756d1fff4fe0728009,1805.11598,1.0,"[12, 13, 2]","[12, 13, 2]",True,True,4,0.16666666666666666,saved_calibration_score_simulation
+07edc082eb86aecef3db5cad2534459c1310d6e8,1911.12559,0.03125,"[0, 3, 7, 16]","[0, 3, 7, 16]",True,True,0,0.0,saved_calibration_score_simulation
+07edc082eb86aecef3db5cad2534459c1310d6e8,1911.12559,0.0625,"[0, 3, 7, 16]","[0, 3, 7, 16]",True,True,0,0.0,saved_calibration_score_simulation
+07edc082eb86aecef3db5cad2534459c1310d6e8,1911.12559,0.125,"[0, 3, 7, 16]","[0, 3, 7, 16]",True,True,0,0.0,saved_calibration_score_simulation
+07edc082eb86aecef3db5cad2534459c1310d6e8,1911.12559,0.25,"[0, 3, 7, 16]","[0, 3, 7, 16]",True,True,0,0.0,saved_calibration_score_simulation
+07edc082eb86aecef3db5cad2534459c1310d6e8,1911.12559,0.5,"[0, 3, 7, 16]","[0, 3, 7, 16]",True,True,3,0.13636363636363635,saved_calibration_score_simulation
+07edc082eb86aecef3db5cad2534459c1310d6e8,1911.12559,1.0,"[0, 3, 7, 16]","[0, 3, 7, 16]",True,True,3,0.13636363636363635,saved_calibration_score_simulation
+b8b79a6123716cb9fabf751b31dff424235a2ee2,1812.05813,0.03125,"[4, 1, 47, 8, 0]","[4, 1, 47, 8, 0]",True,True,0,0.0,saved_calibration_score_simulation
+b8b79a6123716cb9fabf751b31dff424235a2ee2,1812.05813,0.0625,"[4, 1, 47, 8, 0]","[4, 1, 47, 8, 0]",True,True,0,0.0,saved_calibration_score_simulation
+b8b79a6123716cb9fabf751b31dff424235a2ee2,1812.05813,0.125,"[4, 1, 47, 8, 0]","[4, 1, 47, 8, 0]",True,True,0,0.0,saved_calibration_score_simulation
+b8b79a6123716cb9fabf751b31dff424235a2ee2,1812.05813,0.25,"[4, 1, 47, 8, 0]","[4, 1, 47, 8, 0]",True,True,2,0.027777777777777776,saved_calibration_score_simulation
+b8b79a6123716cb9fabf751b31dff424235a2ee2,1812.05813,0.5,"[4, 1, 47, 8, 0]","[4, 1, 47, 8, 0]",True,True,6,0.08333333333333333,saved_calibration_score_simulation
+b8b79a6123716cb9fabf751b31dff424235a2ee2,1812.05813,1.0,"[4, 1, 47, 8, 0]","[4, 1, 47, 8, 0]",True,True,6,0.08333333333333333,saved_calibration_score_simulation
+740cc392c0c8bfadfe6b3a60c0be635c03e17f2a,2004.00809,0.03125,"[9, 24, 3]","[9, 24, 3]",True,True,0,0.0,saved_calibration_score_simulation
+740cc392c0c8bfadfe6b3a60c0be635c03e17f2a,2004.00809,0.0625,"[9, 24, 3]","[9, 24, 3]",True,True,0,0.0,saved_calibration_score_simulation
+740cc392c0c8bfadfe6b3a60c0be635c03e17f2a,2004.00809,0.125,"[9, 24, 3]","[9, 24, 3]",True,True,0,0.0,saved_calibration_score_simulation
+740cc392c0c8bfadfe6b3a60c0be635c03e17f2a,2004.00809,0.25,"[9, 24, 3]","[9, 24, 3]",True,True,0,0.0,saved_calibration_score_simulation
+740cc392c0c8bfadfe6b3a60c0be635c03e17f2a,2004.00809,0.5,"[9, 24, 3]","[9, 24, 3]",True,True,0,0.0,saved_calibration_score_simulation
+740cc392c0c8bfadfe6b3a60c0be635c03e17f2a,2004.00809,1.0,"[9, 24, 3]","[9, 24, 3]",True,True,2,0.058823529411764705,saved_calibration_score_simulation
+72dbdd11b655b25b2b254e39689a7d912f334b71,1909.03553,0.03125,"[4, 1, 0, 3, 50, 49, 5]","[4, 1, 0, 3, 50, 49, 5]",True,True,0,0.0,saved_calibration_score_simulation
+72dbdd11b655b25b2b254e39689a7d912f334b71,1909.03553,0.0625,"[4, 1, 0, 3, 50, 49, 5]","[4, 1, 0, 3, 50, 49, 5]",True,True,0,0.0,saved_calibration_score_simulation
+72dbdd11b655b25b2b254e39689a7d912f334b71,1909.03553,0.125,"[4, 1, 0, 3, 50, 49, 5]","[4, 1, 0, 3, 50, 49, 5]",True,True,0,0.0,saved_calibration_score_simulation
+72dbdd11b655b25b2b254e39689a7d912f334b71,1909.03553,0.25,"[4, 1, 0, 3, 50, 49, 5]","[4, 1, 0, 3, 50, 49, 5]",True,True,0,0.0,saved_calibration_score_simulation
+72dbdd11b655b25b2b254e39689a7d912f334b71,1909.03553,0.5,"[4, 1, 0, 3, 50, 49, 5]","[4, 1, 0, 3, 50, 49, 5]",True,True,5,0.09259259259259259,saved_calibration_score_simulation
+72dbdd11b655b25b2b254e39689a7d912f334b71,1909.03553,1.0,"[4, 1, 0, 3, 50, 49, 5]","[4, 1, 0, 3, 50, 49, 5]",True,True,5,0.09259259259259259,saved_calibration_score_simulation
+2895a3fc63f6f403445c11043460584e949fb16c,1710.07695,0.03125,"[0, 6, 4, 2, 11, 8]","[0, 6, 4, 2, 11, 8]",True,True,0,0.0,saved_calibration_score_simulation
+2895a3fc63f6f403445c11043460584e949fb16c,1710.07695,0.0625,"[0, 6, 4, 2, 11, 8]","[0, 6, 4, 2, 11, 8]",True,True,0,0.0,saved_calibration_score_simulation
+2895a3fc63f6f403445c11043460584e949fb16c,1710.07695,0.125,"[0, 6, 4, 2, 11, 8]","[0, 6, 4, 2, 11, 8]",True,True,0,0.0,saved_calibration_score_simulation
+2895a3fc63f6f403445c11043460584e949fb16c,1710.07695,0.25,"[0, 6, 4, 2, 11, 8]","[0, 6, 4, 2, 11, 8]",True,True,4,0.06349206349206349,saved_calibration_score_simulation
+2895a3fc63f6f403445c11043460584e949fb16c,1710.07695,0.5,"[0, 6, 4, 2, 11, 8]","[0, 6, 4, 2, 11, 8]",True,True,4,0.06349206349206349,saved_calibration_score_simulation
+2895a3fc63f6f403445c11043460584e949fb16c,1710.07695,1.0,"[0, 6, 4, 2, 11, 8]","[0, 6, 4, 2, 11, 8]",True,True,7,0.1111111111111111,saved_calibration_score_simulation
+863d8d32a1605402e11f0bf63968a14bcfd15337,1612.04118,0.03125,"[1, 5, 0, 6, 10, 3]","[1, 5, 0, 6, 10, 3]",True,True,0,0.0,saved_calibration_score_simulation
+863d8d32a1605402e11f0bf63968a14bcfd15337,1612.04118,0.0625,"[1, 5, 0, 6, 10, 3]","[1, 5, 0, 6, 10, 3]",True,True,0,0.0,saved_calibration_score_simulation
+863d8d32a1605402e11f0bf63968a14bcfd15337,1612.04118,0.125,"[1, 5, 0, 6, 10, 3]","[1, 5, 0, 6, 10, 3]",True,True,0,0.0,saved_calibration_score_simulation
+863d8d32a1605402e11f0bf63968a14bcfd15337,1612.04118,0.25,"[1, 5, 0, 6, 10, 3]","[1, 5, 0, 6, 10, 3]",True,True,0,0.0,saved_calibration_score_simulation
+863d8d32a1605402e11f0bf63968a14bcfd15337,1612.04118,0.5,"[1, 5, 0, 6, 10, 3]","[1, 5, 0, 6, 10, 3]",True,True,2,0.07407407407407407,saved_calibration_score_simulation
+863d8d32a1605402e11f0bf63968a14bcfd15337,1612.04118,1.0,"[1, 5, 0, 6, 10, 3]","[1, 5, 0, 6, 10, 3]",True,True,2,0.07407407407407407,saved_calibration_score_simulation
+59dc6b1d3da74a2e67a6fb1ce940b28d9e3d8de0,2002.06854,0.03125,"[0, 42, 3, 22, 7]","[0, 42, 3, 22, 7]",True,True,0,0.0,saved_calibration_score_simulation
+59dc6b1d3da74a2e67a6fb1ce940b28d9e3d8de0,2002.06854,0.0625,"[0, 42, 3, 22, 7]","[0, 42, 3, 22, 7]",True,True,0,0.0,saved_calibration_score_simulation
+59dc6b1d3da74a2e67a6fb1ce940b28d9e3d8de0,2002.06854,0.125,"[0, 42, 3, 22, 7]","[0, 42, 3, 22, 7]",True,True,2,0.043478260869565216,saved_calibration_score_simulation
+59dc6b1d3da74a2e67a6fb1ce940b28d9e3d8de0,2002.06854,0.25,"[0, 42, 3, 22, 7]","[0, 42, 3, 22, 7]",True,True,4,0.08695652173913043,saved_calibration_score_simulation
+59dc6b1d3da74a2e67a6fb1ce940b28d9e3d8de0,2002.06854,0.5,"[0, 42, 3, 22, 7]","[0, 42, 3, 22, 7]",True,True,5,0.10869565217391304,saved_calibration_score_simulation
+59dc6b1d3da74a2e67a6fb1ce940b28d9e3d8de0,2002.06854,1.0,"[0, 42, 3, 22, 7]","[0, 42, 3, 22, 7]",True,True,5,0.10869565217391304,saved_calibration_score_simulation
+00db191facf903cef18fb1727d1cab638c277e0a,1906.05506,0.03125,"[17, 11, 1, 3]","[17, 11, 1, 3]",True,True,0,0.0,saved_calibration_score_simulation
+00db191facf903cef18fb1727d1cab638c277e0a,1906.05506,0.0625,"[17, 11, 1, 3]","[17, 11, 1, 3]",True,True,0,0.0,saved_calibration_score_simulation
+00db191facf903cef18fb1727d1cab638c277e0a,1906.05506,0.125,"[17, 11, 1, 3]","[17, 11, 1, 3]",True,True,0,0.0,saved_calibration_score_simulation
+00db191facf903cef18fb1727d1cab638c277e0a,1906.05506,0.25,"[17, 11, 1, 3]","[17, 11, 1, 3]",True,True,0,0.0,saved_calibration_score_simulation
+00db191facf903cef18fb1727d1cab638c277e0a,1906.05506,0.5,"[17, 11, 1, 3]","[17, 11, 1, 3]",True,True,2,0.05,saved_calibration_score_simulation
+00db191facf903cef18fb1727d1cab638c277e0a,1906.05506,1.0,"[17, 11, 1, 3]","[17, 11, 1, 3]",True,True,3,0.075,saved_calibration_score_simulation
+3588988f2230f3329d7523fbb881b20bf177280d,1811.00051,0.03125,"[2, 5]","[2, 5]",True,True,0,0.0,saved_calibration_score_simulation
+3588988f2230f3329d7523fbb881b20bf177280d,1811.00051,0.0625,"[2, 5]","[2, 5]",True,True,0,0.0,saved_calibration_score_simulation
+3588988f2230f3329d7523fbb881b20bf177280d,1811.00051,0.125,"[2, 5]","[2, 5]",True,True,0,0.0,saved_calibration_score_simulation
+3588988f2230f3329d7523fbb881b20bf177280d,1811.00051,0.25,"[2, 5]","[2, 5]",True,True,0,0.0,saved_calibration_score_simulation
+3588988f2230f3329d7523fbb881b20bf177280d,1811.00051,0.5,"[2, 5]","[2, 5]",True,True,0,0.0,saved_calibration_score_simulation
+3588988f2230f3329d7523fbb881b20bf177280d,1811.00051,1.0,"[2, 5]","[2, 5]",True,True,2,0.02,saved_calibration_score_simulation
+088d42ecb1e15515f6a97a0da2fed81b61d61a23,1909.00437,0.03125,"[0, 3, 9]","[0, 3, 9]",True,True,0,0.0,saved_calibration_score_simulation
+088d42ecb1e15515f6a97a0da2fed81b61d61a23,1909.00437,0.0625,"[0, 3, 9]","[0, 3, 9]",True,True,0,0.0,saved_calibration_score_simulation
+088d42ecb1e15515f6a97a0da2fed81b61d61a23,1909.00437,0.125,"[0, 3, 9]","[0, 3, 9]",True,True,0,0.0,saved_calibration_score_simulation
+088d42ecb1e15515f6a97a0da2fed81b61d61a23,1909.00437,0.25,"[0, 3, 9]","[0, 3, 9]",True,True,0,0.0,saved_calibration_score_simulation
+088d42ecb1e15515f6a97a0da2fed81b61d61a23,1909.00437,0.5,"[0, 3, 9]","[0, 3, 9]",True,True,0,0.0,saved_calibration_score_simulation
+088d42ecb1e15515f6a97a0da2fed81b61d61a23,1909.00437,1.0,"[0, 3, 9]","[0, 3, 9]",True,True,0,0.0,saved_calibration_score_simulation
+ec54ae2f4811196fcaafa45e76130239e69995f9,1909.07158,0.03125,"[0, 49, 3, 39, 19, 7]","[0, 49, 3, 39, 19, 7]",True,True,0,0.0,saved_calibration_score_simulation
+ec54ae2f4811196fcaafa45e76130239e69995f9,1909.07158,0.0625,"[0, 49, 3, 39, 19, 7]","[0, 49, 3, 39, 19, 7]",True,True,0,0.0,saved_calibration_score_simulation
+ec54ae2f4811196fcaafa45e76130239e69995f9,1909.07158,0.125,"[0, 49, 3, 39, 19, 7]","[0, 49, 3, 39, 19, 7]",True,True,5,0.09090909090909091,saved_calibration_score_simulation
+ec54ae2f4811196fcaafa45e76130239e69995f9,1909.07158,0.25,"[0, 49, 3, 39, 19, 7]","[0, 49, 3, 39, 19, 7]",True,True,7,0.12727272727272726,saved_calibration_score_simulation
+ec54ae2f4811196fcaafa45e76130239e69995f9,1909.07158,0.5,"[0, 49, 3, 39, 19, 7]","[0, 49, 3, 39, 19, 7]",True,True,8,0.14545454545454545,saved_calibration_score_simulation
+ec54ae2f4811196fcaafa45e76130239e69995f9,1909.07158,1.0,"[0, 49, 3, 39, 19, 7]","[0, 49, 3, 39, 19, 7]",True,True,8,0.14545454545454545,saved_calibration_score_simulation
+c59d67930edd3d369bd51a619849facdd0770644,1705.10272,0.03125,"[0, 2, 1, 4]","[0, 2, 1, 4]",True,True,0,0.0,saved_calibration_score_simulation
+c59d67930edd3d369bd51a619849facdd0770644,1705.10272,0.0625,"[0, 2, 1, 4]","[0, 2, 1, 4]",True,True,0,0.0,saved_calibration_score_simulation
+c59d67930edd3d369bd51a619849facdd0770644,1705.10272,0.125,"[0, 2, 1, 4]","[0, 2, 1, 4]",True,True,0,0.0,saved_calibration_score_simulation
+c59d67930edd3d369bd51a619849facdd0770644,1705.10272,0.25,"[0, 2, 1, 4]","[0, 2, 1, 4]",True,True,0,0.0,saved_calibration_score_simulation
+c59d67930edd3d369bd51a619849facdd0770644,1705.10272,0.5,"[0, 2, 1, 4]","[0, 2, 1, 4]",True,True,2,0.14285714285714285,saved_calibration_score_simulation
+c59d67930edd3d369bd51a619849facdd0770644,1705.10272,1.0,"[0, 2, 1, 4]","[0, 2, 1, 4]",True,True,2,0.14285714285714285,saved_calibration_score_simulation
+10edfb9428b8a4652274c13962917662fdf84f8a,1911.07620,0.03125,"[7, 0, 9, 4]","[7, 0, 9, 4]",True,True,2,0.038461538461538464,saved_calibration_score_simulation
+10edfb9428b8a4652274c13962917662fdf84f8a,1911.07620,0.0625,"[7, 0, 9, 4]","[7, 0, 9, 4]",True,True,4,0.07692307692307693,saved_calibration_score_simulation
+10edfb9428b8a4652274c13962917662fdf84f8a,1911.07620,0.125,"[7, 0, 9, 4]","[7, 0, 9, 4]",True,True,4,0.07692307692307693,saved_calibration_score_simulation
+10edfb9428b8a4652274c13962917662fdf84f8a,1911.07620,0.25,"[7, 0, 9, 4]","[7, 0, 9, 4]",True,True,4,0.07692307692307693,saved_calibration_score_simulation
+10edfb9428b8a4652274c13962917662fdf84f8a,1911.07620,0.5,"[7, 0, 9, 4]","[7, 0, 9, 4]",True,True,4,0.07692307692307693,saved_calibration_score_simulation
+10edfb9428b8a4652274c13962917662fdf84f8a,1911.07620,1.0,"[7, 0, 9, 4]","[7, 0, 9, 4]",True,True,4,0.07692307692307693,saved_calibration_score_simulation

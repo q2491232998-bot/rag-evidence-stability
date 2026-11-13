@@ -1,0 +1,3 @@
+model,id,dataset,batch_size,rep,candidate_count,max_abs_error,candidate_index,batch_score,serial_score,multiplier,recalibrated_epsilon,source_jsonl_sha256
+qwen,5a7efa7a55429930675135ea,hotpot,4,0,178,0.5,10,1.625,1.125,1.5,0.75,a7d3b0289c1b5c128c70fa21d8bebc26e59bb233d98fa580aba2c3dc01b61156
+bge,5ac3d2ac554299741d48a330,hotpot,8,0,174,0.21875,132,-5.84375,-5.625,1.5,0.328125,685e92fb9d4ad61d04f287bd66c25467db0874e5719bcaa4e9dd413030809ca2

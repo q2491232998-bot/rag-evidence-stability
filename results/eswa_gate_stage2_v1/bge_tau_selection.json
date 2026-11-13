@@ -1,0 +1,84 @@
+{
+  "utc": "2026-11-10T15:39:36.373002+00:00",
+  "tau": 0.125,
+  "rule": "minimum_cost_feasible",
+  "grid": [
+    {
+      "tau": 0.03125,
+      "context_differences": 1,
+      "baseline_context_differences": 4,
+      "mean_rescored_fraction": 0.004236478510720888,
+      "max_rescored_fraction": 0.06896551724137931,
+      "joint_feasible": false
+    },
+    {
+      "tau": 0.0625,
+      "context_differences": 1,
+      "baseline_context_differences": 4,
+      "mean_rescored_fraction": 0.009814308273029738,
+      "max_rescored_fraction": 0.1111111111111111,
+      "joint_feasible": false
+    },
+    {
+      "tau": 0.125,
+      "context_differences": 0,
+      "baseline_context_differences": 4,
+      "mean_rescored_fraction": 0.026041911835018607,
+      "max_rescored_fraction": 0.1111111111111111,
+      "joint_feasible": true
+    },
+    {
+      "tau": 0.25,
+      "context_differences": 0,
+      "baseline_context_differences": 4,
+      "mean_rescored_fraction": 0.04398391097165247,
+      "max_rescored_fraction": 0.2222222222222222,
+      "joint_feasible": true
+    },
+    {
+      "tau": 0.5,
+      "context_differences": 0,
+      "baseline_context_differences": 4,
+      "mean_rescored_fraction": 0.07337531386879169,
+      "max_rescored_fraction": 0.2727272727272727,
+      "joint_feasible": true
+    },
+    {
+      "tau": 1.0,
+      "context_differences": 0,
+      "baseline_context_differences": 4,
+      "mean_rescored_fraction": 0.09258636046686976,
+      "max_rescored_fraction": 0.2727272727272727,
+      "joint_feasible": true
+    }
+  ],
+  "calibration_n": 64,
+  "evaluation_scored": false,
+  "v2_inherits_same_tau": true,
+  "weights_unchanged": true,
+  "parameter_hash": "ef240e4e583db045453bff15a63b7a070b13251e34584482c0ca5f6dd2e0c966",
+  "warmup": [
+    {
+      "id": "2da4c3679111dd92a1d0869dae353ebe5989dfd2",
+      "method": "serial",
+      "seconds": 0.5377656219934579
+    },
+    {
+      "id": "2da4c3679111dd92a1d0869dae353ebe5989dfd2",
+      "method": "batch4",
+      "seconds": 0.16146280599059537
+    },
+    {
+      "id": "2c6b50877133a499502feb79a682f4023ddab63e",
+      "method": "serial",
+      "seconds": 0.3026841160026379
+    },
+    {
+      "id": "2c6b50877133a499502feb79a682f4023ddab63e",
+      "method": "batch4",
+      "seconds": 0.10570899801678024
+    }
+  ],
+  "calibration_sha256": "da2ded2445ddc48c346cb999e2c66643bb4bf6d79423f2b1a5a50b84519c611c",
+  "freeze_sha256": "526746b47f012748472689abb6d9a7de05f5d8098890fd15e9d3b333ae2eff39"
+}

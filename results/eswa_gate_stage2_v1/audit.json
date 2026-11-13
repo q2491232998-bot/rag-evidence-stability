@@ -1,0 +1,467 @@
+{
+  "utc": "2026-11-11T09:11:37.249679+00:00",
+  "state": "complete",
+  "stage0_status": "passed",
+  "stage1_status": "failed_86.49_percent_not_90",
+  "continuation": "explicit_user_decision",
+  "stage2_executed_complete": true,
+  "write_paper": false,
+  "audit_counts": {
+    "independent_packs": 10944,
+    "initial_scores_differ_from_batch4": 0,
+    "actual_serial_values_checked": 29122,
+    "actual_serial_values_different": 0
+  },
+  "maximum_actual_serial_score_error": 0.0,
+  "unique_replayed_score_vectors": 4386,
+  "freeze_sha256": "526746b47f012748472689abb6d9a7de05f5d8098890fd15e9d3b333ae2eff39",
+  "bge_tau": 0.125,
+  "reader": {
+    "state": "complete",
+    "utc": "2026-11-11T09:09:00.893585+00:00",
+    "unique_prompts": 1045,
+    "links": 10944,
+    "seconds": 416.1440904320334,
+    "repeat_identity": 16,
+    "repeated_prompts": 16,
+    "cap_hits": 10,
+    "answers_sha256": "1c214debbf0684cefe39e1aa4f3b9424faa467c1544e43845743a6935c26a544",
+    "memoized_exact_prompts": true
+  },
+  "official_qasper_checks": [
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "fp32_math_batch4",
+        4,
+        0
+      ],
+      "Answer F1": 0.5210690582539722,
+      "Evidence F1": 0.2946553157490657
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "gate_v1",
+        4,
+        0
+      ],
+      "Answer F1": 0.5206716492889862,
+      "Evidence F1": 0.29312588453213456
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "gate_v2",
+        4,
+        0
+      ],
+      "Answer F1": 0.5204024128065144,
+      "Evidence F1": 0.29372112262737265
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "top15",
+        4,
+        0
+      ],
+      "Answer F1": 0.5204024128065144,
+      "Evidence F1": 0.29372112262737265
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "serial",
+        1,
+        0
+      ],
+      "Answer F1": 0.5204024128065144,
+      "Evidence F1": 0.29372112262737265
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "batch4",
+        4,
+        0
+      ],
+      "Answer F1": 0.523015568579007,
+      "Evidence F1": 0.2956060432622933
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "serial",
+        1,
+        1
+      ],
+      "Answer F1": 0.5204024128065144,
+      "Evidence F1": 0.29372112262737265
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "top15",
+        4,
+        1
+      ],
+      "Answer F1": 0.5204024128065144,
+      "Evidence F1": 0.29372112262737265
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "gate_v2",
+        4,
+        1
+      ],
+      "Answer F1": 0.5204024128065144,
+      "Evidence F1": 0.29372112262737265
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "gate_v1",
+        4,
+        1
+      ],
+      "Answer F1": 0.5206716492889862,
+      "Evidence F1": 0.29312588453213456
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "fp32_math_batch4",
+        4,
+        1
+      ],
+      "Answer F1": 0.5210690582539722,
+      "Evidence F1": 0.2946553157490657
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "batch4",
+        4,
+        1
+      ],
+      "Answer F1": 0.523015568579007,
+      "Evidence F1": 0.2956060432622933
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "batch_scan",
+        2,
+        0
+      ],
+      "Answer F1": 0.5126245028426062,
+      "Evidence F1": 0.29625088453213455
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "batch_scan",
+        8,
+        0
+      ],
+      "Answer F1": 0.5342849320564965,
+      "Evidence F1": 0.29929515779699606
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "batch_scan",
+        16,
+        0
+      ],
+      "Answer F1": 0.5260435903654321,
+      "Evidence F1": 0.2918670824001706
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "batch_scan",
+        32,
+        0
+      ],
+      "Answer F1": 0.5261153837572194,
+      "Evidence F1": 0.2948909308284308
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "batch_scan",
+        32,
+        1
+      ],
+      "Answer F1": 0.5261153837572194,
+      "Evidence F1": 0.2948909308284308
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "batch_scan",
+        16,
+        1
+      ],
+      "Answer F1": 0.5260435903654321,
+      "Evidence F1": 0.2918670824001706
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "batch_scan",
+        8,
+        1
+      ],
+      "Answer F1": 0.5342849320564965,
+      "Evidence F1": 0.29929515779699606
+    },
+    {
+      "group": [
+        "qwen",
+        "qasper",
+        "batch_scan",
+        2,
+        1
+      ],
+      "Answer F1": 0.5126245028426062,
+      "Evidence F1": 0.29625088453213455
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "fp32_math_batch4",
+        4,
+        0
+      ],
+      "Answer F1": 0.5189641039205048,
+      "Evidence F1": 0.29942641270766274
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "gate_v1",
+        4,
+        0
+      ],
+      "Answer F1": 0.5193576224390234,
+      "Evidence F1": 0.29812432937432937
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "gate_v2",
+        4,
+        0
+      ],
+      "Answer F1": 0.5193576224390234,
+      "Evidence F1": 0.29812432937432937
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "top15",
+        4,
+        0
+      ],
+      "Answer F1": 0.5193576224390234,
+      "Evidence F1": 0.29812432937432937
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "serial",
+        1,
+        0
+      ],
+      "Answer F1": 0.5193576224390234,
+      "Evidence F1": 0.29812432937432937
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "batch4",
+        4,
+        0
+      ],
+      "Answer F1": 0.5226278606681432,
+      "Evidence F1": 0.29812432937432937
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "serial",
+        1,
+        1
+      ],
+      "Answer F1": 0.5193576224390234,
+      "Evidence F1": 0.29812432937432937
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "top15",
+        4,
+        1
+      ],
+      "Answer F1": 0.5193576224390234,
+      "Evidence F1": 0.29812432937432937
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "gate_v2",
+        4,
+        1
+      ],
+      "Answer F1": 0.5193576224390234,
+      "Evidence F1": 0.29812432937432937
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "gate_v1",
+        4,
+        1
+      ],
+      "Answer F1": 0.5193576224390234,
+      "Evidence F1": 0.29812432937432937
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "fp32_math_batch4",
+        4,
+        1
+      ],
+      "Answer F1": 0.5189641039205048,
+      "Evidence F1": 0.29942641270766274
+    },
+    {
+      "group": [
+        "bge",
+        "qasper",
+        "batch4",
+        4,
+        1
+      ],
+      "Answer F1": 0.5226278606681432,
+      "Evidence F1": 0.29812432937432937
+    }
+  ],
+  "historical_128_role": "development",
+  "interruption_files": [
+    "interruption_qwen_1794325205441019586.json"
+  ],
+  "metric_definitions_sha256": "ec90905db4e58e896e22bcfdc2b4a4fcbcfb17979f11daa6c4a611c7c6cb709e",
+  "timing_recovery": {
+    "utc": "2026-11-11T07:50:31.081665+00:00",
+    "state": "complete",
+    "warmup": [
+      {
+        "id": "2da4c3679111dd92a1d0869dae353ebe5989dfd2",
+        "method": "serial",
+        "seconds": 0.882402056013234
+      },
+      {
+        "id": "2da4c3679111dd92a1d0869dae353ebe5989dfd2",
+        "method": "batch4",
+        "seconds": 0.35391212900867686
+      },
+      {
+        "id": "2da4c3679111dd92a1d0869dae353ebe5989dfd2",
+        "method": "fp32_math_batch4",
+        "seconds": 0.6716824020259082
+      },
+      {
+        "id": "2da4c3679111dd92a1d0869dae353ebe5989dfd2",
+        "method": "gate_v1",
+        "seconds": 0.3294441679609008
+      },
+      {
+        "id": "2da4c3679111dd92a1d0869dae353ebe5989dfd2",
+        "method": "gate_v2",
+        "seconds": 0.3298683549510315
+      },
+      {
+        "id": "2da4c3679111dd92a1d0869dae353ebe5989dfd2",
+        "method": "top15",
+        "seconds": 0.6057598189800046
+      },
+      {
+        "id": "2c6b50877133a499502feb79a682f4023ddab63e",
+        "method": "serial",
+        "seconds": 0.4990770670119673
+      },
+      {
+        "id": "2c6b50877133a499502feb79a682f4023ddab63e",
+        "method": "batch4",
+        "seconds": 0.2243694739881903
+      },
+      {
+        "id": "2c6b50877133a499502feb79a682f4023ddab63e",
+        "method": "fp32_math_batch4",
+        "seconds": 0.41309778502909467
+      },
+      {
+        "id": "2c6b50877133a499502feb79a682f4023ddab63e",
+        "method": "gate_v1",
+        "seconds": 0.40388453798368573
+      },
+      {
+        "id": "2c6b50877133a499502feb79a682f4023ddab63e",
+        "method": "gate_v2",
+        "seconds": 0.5414761209976859
+      },
+      {
+        "id": "2c6b50877133a499502feb79a682f4023ddab63e",
+        "method": "top15",
+        "seconds": 0.5036140530137345
+      }
+    ],
+    "plan_sha256": "c19ff5bfd0e0df3781997ef29509ca327bf2c4948bc7c1ef067d8c08340d98ab",
+    "records": 613,
+    "changed_output_records": 0,
+    "parameters_unchanged": true,
+    "buffers_unchanged": true,
+    "parameter_hash": "b5a4ab8849d5f05ecf8b1547682a9796c18aeb708b8f920e2d405433b2d60a22",
+    "records_sha256": "5336a22f7f90a8eecc362d1371779ad8dbeb3c38b3a7c270d589687512981284",
+    "seconds": 1163.3247742800158
+  },
+  "timing_recovered_records": 613,
+  "timing_recovery_protocol_deviation": true,
+  "quality_statistics_use_scheduled_records_only": true
+}
